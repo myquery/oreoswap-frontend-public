@@ -23,7 +23,7 @@ const Header = () => {
         <a href="#">Team</a>
         </li>
         <li  className="menu-item">
-        <a href="#">Team</a>
+        <a href="#">Use Exchange</a>
         </li>
         </ul>
         
