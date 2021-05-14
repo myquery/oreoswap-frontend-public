@@ -1,0 +1,21 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+}
+.oreoswap-logo{
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+.menu-item{
+    padding: 1rem;
+    list-style: none;
+    
+    
+}
+.menu-item a{
+    text-decoration: none;
+    
+}
