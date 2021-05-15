@@ -1,0 +1,63 @@
+@import "../../../config/_config.css";
+
+.oreoswap-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+    width: 100vw;
+    place-items: center;
+ 
+}
+.oreoswap-logo{
+    display: flex;
+    width: 20%;
+    justify-self: start;
+    position: relative;
+    left: 10%;
+}
+
+.oreoswap-header-item{
+    place-items: self-start;
+}
+.main-menu{
+    display: flex;
+    justify-self: end;
+    position: relative;
+    right: 10%;
+}
+.menu-item{
+    padding: 0.4rem 1.1rem;
+    list-style: none;
+    font-weight: 700;
+    text-align: center;
+
+    
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: var(--brown-chocoloate-color);
+    
+}
+ .menu-item:last-child a{
+    color: var(--link-menu-wallet-text);
+    
+} 
+
+.menu-item:last-child{
+  background: var(--green-button-color);
+  width: 10em;
+  text-align: center;
+  border-radius: 0.4rem;
+  /* padding: 0.3em; */
+  display: grid;
+  place-items: center;
+
+    
+}
+.moon-icon{
+    color: var(--green-button-color);
+    font-size: 1.4em;
+    margin:0 0.6em
+
+}

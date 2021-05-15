@@ -1,5 +1,2 @@
-:root{
-    --green-button-color: #276151;
-    --link-color: #333;
-    --link-menu-wallet-text:#fefefe
-}
+@import "./_break-point.css";
+@import "./_colors.css";
