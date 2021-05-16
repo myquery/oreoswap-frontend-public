@@ -1,0 +1,34 @@
+/* small mobile */
+@media all and  (min-width: 0px){
+
+
+}
+/* medium mobile */
+@media all and  (min-width: 375px){
+
+}
+
+/* large mobile */
+@media all and (min-width: 420px){
+
+}
+
+/* tablet */
+@media all and (min-width: 768px){
+
+}
+
+/* laptop */
+@media all and (min-width: 1024px){
+
+}
+
+/* bigger laptop/desktop */
+@media all and (min-width: 1440px){
+
+}
+
+/* 4k */
+@media all and  (min-width: 2550px){
+
+}
