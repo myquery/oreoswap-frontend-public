@@ -1,4 +1,4 @@
-import "../css/local/components/_banner.css"
+import "../css/local/partials/components/_banner.css"
 
 const Banner = () => {
 	return(
