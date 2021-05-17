@@ -1,12 +1,8 @@
 import "../css/local/partials/components/_header.css";
-const Header = () => {
-
-    const toggleMode = () => {
-
-    }
+const Header = ({isClicked, toggleMode}) => {
 
     return(
-        <header className="oreoswap-header">
+        <header className={isClicked ? "oreoswap-header navbar-darkmode" : "oreoswap-header navbar-lightmode" }>
         <img src="img/oreoswap-brown-logo.png" className="oreoswap-logo"/>
         {/* <h1 className="oreoswap-header-item">OreoSwap</h1> */}
         <ul className="main-menu">
@@ -28,7 +24,7 @@ const Header = () => {
         <li  className="menu-item">
         <a href="#" onClick={toggleMode}>
             {/* <img src="img/moon.svg" className="moon-icon"/> */}
-            <i class="bi bi-moon-fill moon-icon"></i>
+            <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
             </a>
         </li>
         <li  className="menu-item">

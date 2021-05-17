@@ -36,7 +36,7 @@
 
 .menu-item a{
     text-decoration: none;
-    color: var(--brown-chocoloate-color);
+   /*  color: var(--brown-chocoloate-color); */
     
 }
  .menu-item:last-child a{
@@ -60,4 +60,17 @@
     font-size: 1.4em;
     margin:0 0.6em
 
+}
+.sun-icon{
+  color: var(--white);
+  font-size: 1.4em;
+  margin:0 0.6em
+}
+
+.navbar-darkmode{
+  background: var(--navbar-darkmode-color);
+}
+
+.navbar-lightmode{
+  background: var(--white);
 }
