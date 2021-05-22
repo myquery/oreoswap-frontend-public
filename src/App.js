@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Newsletter from "./components/Newletter"
 import Footer from "./components/Footer"
+import Body from "./components/Body"
 // icons
 import newsletterDarkBg from "./icons/newsletter-vector-dark.svg"
 import newsletterLightBg from "./icons/newsletter-vector-light.svg"
@@ -34,6 +35,9 @@ class App extends Component {
 			    	handleClick ={handleClick}
 			    />
 			    <Banner 
+			    	isClicked = {this.state.isClicked}
+			    />
+				<Body 
 			    	isClicked = {this.state.isClicked}
 			    />
 			    <Newsletter 
