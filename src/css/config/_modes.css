@@ -1,7 +1,7 @@
 * a:hover{
 	filter: brightness(90%);
 }
-.lightmode{
+.lightmode, .cards-lightmode{
 	color: var(--black);
 	background: var(--white);
 }
@@ -22,4 +22,23 @@
 .darkmode a:hover{
 	text-decoration: none;
 	color: var(--white);
+}
+.navbar-darkmode, .footer-darkmode{
+  background: var(--navbar-darkmode-color);
+}
+.navbar-lightmode{
+  background: var(--white);
+}
+.footer-lightmode{
+	background: var(--banner-lightmode-color);
+	color: var(--white);
+}
+.footer-lightmode a{
+	color: var(--white);
+}
+.cards-darkmode{
+	background: var(--cards-darkmode-background);
+}
+.cards-darkmode  input[type=email]:focus{
+	color: white;
 }
