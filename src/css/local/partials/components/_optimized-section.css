@@ -1,0 +1,46 @@
+
+.optimized-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15% 1fr;
+    place-items: center;
+    width: 100vw;
+    padding: 2em;
+    margin: 1em 0;
+}
+.optimized-header{
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 0.4em;
+    -moz-text-decoration-thickness:0.4em;
+    text-decoration-color: rosybrown;
+    font: 2rem/2.5rem var(--roboto-font);
+    font-weight: 500;
+    margin:0 0 1.5rem 0;
+  
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0;
+    width: 60%;
+    padding: 1em;    
+    justify-content: center;
+    align-items: center;
+}
+
+.card-optimized{
+    border-radius: 1.3em;
+    box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
+    padding: 1em;
+    width: 14em;
+    height: 14em;
+    text-align: center;
+    margin: 3em;
+    font-weight: 700;
+
+}
