@@ -1,0 +1,25 @@
+* a:hover{
+	filter: brightness(90%);
+}
+.lightmode{
+	color: var(--black);
+	background: var(--white);
+}
+.lightmode a{
+	color: var(--black);
+}
+.lightmode a:hover{
+	text-decoration: none;
+	color: var(--black);
+}
+.darkmode{
+	color: var(--white);
+	background: var(--black);
+}
+.darkmode a{
+	color: var(--white);
+}
+.darkmode a:hover{
+	text-decoration: none;
+	color: var(--white);
+}

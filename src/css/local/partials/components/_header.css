@@ -1,5 +1,10 @@
 @import "../../../config/_config.css";
 
+/*reset bootstrap classes*/
+.navbar, .navbar-nav, .navbar-light, .bg-light{
+    background-color: none !important;
+}
+
 .oreoswap-header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,8 +27,8 @@
 .main-menu{
     display: flex;
     justify-self: end;
-    position: relative;
-    right: 10%;
+    /* position: relative;
+    right: 10%; */
 }
 .menu-item{
     padding: 0.4rem 1.1rem;
@@ -36,7 +41,7 @@
 
 .menu-item a{
     text-decoration: none;
-    color: var(--brown-chocoloate-color);
+   /*  color: var(--brown-chocoloate-color); */
     
 }
  .menu-item:last-child a{
@@ -60,4 +65,17 @@
     font-size: 1.4em;
     margin:0 0.6em
 
+}
+.sun-icon{
+  color: var(--white);
+  font-size: 1.4em;
+  margin:0 0.6em
+}
+
+.navbar-darkmode{
+  background: var(--navbar-darkmode-color);
+}
+
+.navbar-lightmode{
+  background: var(--white);
 }
