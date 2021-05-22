@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./App.css";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
+import Body from "./components/Body";
 
 class App extends Component {
 	state = {
@@ -22,6 +23,9 @@ class App extends Component {
 			    <Banner 
 			    	isClicked = {this.state.isClicked}
 			    />
+				<Body
+					isClicked = {this.state.isClicked}
+				/>
 		    </div>
 		)
 	}
