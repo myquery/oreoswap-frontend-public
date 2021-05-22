@@ -1,65 +1,5 @@
 @import "../../../config/_config.css";
 
-/*reset bootstrap classes*/
-.navbar, .navbar-nav, .navbar-light, .bg-light{
-    background-color: none !important;
-}
-
-.oreoswap-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100px;
-    width: 100vw;
-    place-items: center;
- 
-}
-.oreoswap-logo{
-    display: flex;
-    width: 20%;
-    justify-self: start;
-    position: relative;
-    left: 10%;
-}
-
-.oreoswap-header-item{
-    place-items: self-start;
-}
-.main-menu{
-    display: flex;
-    justify-self: end;
-    /* position: relative;
-    right: 10%; */
-}
-.menu-item{
-    padding: 0.4rem 1.1rem;
-    list-style: none;
-    font-weight: 700;
-    text-align: center;
-
-    
-}
-
-.menu-item a{
-    text-decoration: none;
-   /*  color: var(--brown-chocoloate-color); */
-    
-}
- .menu-item:last-child a{
-    color: var(--link-menu-wallet-text);
-    
-} 
-
-.menu-item:last-child{
-  background: var(--green-button-color);
-  width: 10em;
-  text-align: center;
-  border-radius: 0.4rem;
-  /* padding: 0.3em; */
-  display: grid;
-  place-items: center;
-
-    
-}
 .moon-icon{
     color: var(--green-button-color);
     font-size: 1.4em;
@@ -71,11 +11,217 @@
   font-size: 1.4em;
   margin:0 0.6em
 }
+.darkmodeButton {
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5rem 0.8rem;
+  background: transparent;
 
-.navbar-darkmode{
-  background: var(--navbar-darkmode-color);
+}
+.darkmodeButton a, .darkmodeButton{
+  color: #24292E;
+  font-weight: bold;
+}
+.darkmodeButton:hover{
+  border: 1px solid #EEBA47;
+  background: #EEBA47;
+  transition: 0.1s ease-in;
+}
+.darkmodeButton:hover a{
+  color: #24292E;
+}
+.lightmodeButton {
+  border: 1px solid #EEBA47;
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5rem 0.8rem;
+  background: transparent;
+}
+.lightmodeButton a, .lightmodeButton{
+  color: #EEBA47;
+  font-weight: bold;
+}
+.lightmodeButton:hover{
+  background: #EEBA47;
+  transition: 0.1s ease-in;
+  color:  #24292E;
+}
+.lightmodeButton:hover a{
+  color: var(--black);
 }
 
-.navbar-lightmode{
-  background: var(--white);
+@media all and (min-width: 0px){
+  .logo{
+    width: 30px;
+  }
+  .nav1 > ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem 0 6rem;
+    margin-top: -2rem;
+  }
+  .nav1 > ul li{
+    padding: 1rem 0;
+   }
+  .nav1 > ul li a{
+    font: 0.9rem/1.25rem var(--roboto-font);
+    letter-spacing: 0.014em;
+    font-weight: 500;
+  }
+  .hamburger{
+    border-radius: 60px;
+    height: 3px;
+    width:  30px;
+    margin: 7px 0 7px 0;
+  }
+  .ln01{
+    width: 15px;
+    margin-left: auto;
+  }
+  .ln02{
+    width: 22px;
+    margin-left: auto;
+  }
+  .ln1{
+    animation: cros 0.5s;
+    transform: rotateZ(40deg);
+    margin-bottom: 0;
+    width: 25px;
+    margin-left: auto;
+  }
+  .ln2{
+    animation: cross 0.5s;
+    transform: rotateZ(135deg); 
+    margin-top: 0;
+    width: 25px;
+  }
+  @keyframes cross{
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(135deg);
+    }
+  }
+  @keyframes cros{
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(40deg);
+    }
+  }
+  nav{
+    width: 100%;
+  }
+  nav ul div{
+    width: 100px;
+    height: 2px;
+    background: #C4C4C4;
+  }
+  .mobilenav{
+    display: flex;
+    padding: 1rem 0;
+    width: 100%;
+    margin: auto;
+  }
+  .togglenavbar{
+    margin: auto 0
+  }
+  .nav,.ln3,.desktop-nav{
+    display: none;
+  }
+  .nav1{
+    display: block;
+  }
+   .navbar-button{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border-radius: 5px; 
+    border: none; 
+    background: var(--green-button-color);  
+    display: flex;
+  }
+  .navbar-button a{
+    color: var(--white);
+    font-weight: 500;
+    align-items: center;
+  }
+}
+@media all and (min-width: 400px){
+  .nav1 > ul{
+    padding: 6rem 0 8rem;
+  }
+}
+@media all and (min-width: 768px){
+  nav>ul>li{
+    font-size: 1.5rem;
+  }
+}
+@media all and (min-width: 1024px){
+  .logo{
+    width: 120px;
+  }
+  nav>ul>li{
+    font: 1rem/1.2rem  var(--roboto-font);
+    font-weight: 500;
+    list-style: none;
+    display: inline-flex;
+    margin: 0 1rem;
+  }
+  .desktop-nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .darkmodeButton a{
+    color: #24292E;
+    font: 1rem/1.2rem  var(--roboto-font);
+    font-weight: bold;
+  }
+  .lightmodeButton a{
+    color: #EEBA47;
+    font: 1rem/1.2rem  var(--roboto-font);
+    font-weight: bold;
+  }
+  .lightmodeButton:hover a{
+    color: var(--black);
+    font: 1rem/1.2rem  var(--roboto-font);
+    font-weight: bold;
+  }
+  .navbar-button{
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 20px; 
+    border: none; 
+    background: var(--green-button-color);  
+  }
+  .navbar-button a{
+    color: var(--white);
+    font-weight: 500;
+  }
+  .mobilenav{
+    display: none;
+  }
+}
+@media all and (min-width: 1440px){
+  .logo{
+    width: 150px;
+  }
+  .mobilenav{
+    display: none;
+  }
+  nav>ul>li{
+   font: 1.25rem/1.438rem var(--roboto-font);
+    font-weight: 500;
+    list-style: none;
+    display: inline-flex;
+    margin: 0 1rem;
+  }
+  
 }
