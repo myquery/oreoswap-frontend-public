@@ -37,7 +37,11 @@ class App extends Component {
 			    <Banner 
 			    	isClicked = {this.state.isClicked}
 			    />
-				<OptimizedSection/>
+				<OptimizedSection
+					toggleMode = {toggleMode}
+					isClicked = {this.state.isClicked}
+				
+				/>
 			    <Newsletter 
 			    	isClicked = {this.state.isClicked}
 			    	newsletterLightBg = { newsletterLightBg } 

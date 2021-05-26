@@ -77,7 +77,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="#">Blog</a>
                             </li>
                            <li  className="my-auto">
-                                <a href="#" onClick={toggleMode} className="m-auto">
+                                <a href="#" onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>
                                     <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
                                 </a>
                             </li>
