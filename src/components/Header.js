@@ -1,3 +1,9 @@
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Form from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/FormControl';
+import Button from 'react-bootstrap/Button';
 import "../css/local/partials/components/_header.css";
 const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
 // hamburger button color
@@ -71,7 +77,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="#">Blog</a>
                             </li>
                            <li  className="my-auto">
-                                <a href="#" onClick={toggleMode} className="m-auto">
+                                <a href="#" onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>
                                     <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
                                 </a>
                             </li>
