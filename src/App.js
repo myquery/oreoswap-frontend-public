@@ -3,6 +3,7 @@ import "./App.css";
 // components
 import Header from "./components/Header";
 import Banner from "./components/Banner";
+import StatisticSection from "./components/StatisticSection"
 import OptimizedSection from "./components/OPtimizedSection"
 import Newsletter from "./components/Newletter"
 import Footer from "./components/Footer"
@@ -37,6 +38,9 @@ class App extends Component {
 			    <Banner 
 			    	isClicked = {this.state.isClicked}
 			    />
+				<StatisticSection
+				 	isClicked = {this.state.isClicked}
+				/>
 				<OptimizedSection
 					toggleMode = {toggleMode}
 					isClicked = {this.state.isClicked}

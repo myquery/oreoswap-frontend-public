@@ -1,8 +1,9 @@
 /* small mobile and large mobile  */
 @media all and  (min-width: 0px) and (max-width:420px){
+    /*optimized-section*/
     .optimized-container{
 
-        padding: 0.5rem 2em;
+        padding: 0.5em 0;
         margin: 0.5em 0;
       
      
@@ -73,7 +74,33 @@ h2.optimized-header-dark{
 
 
 }
-    
+   
+/*statistic-section*/
+
+.statictis-container{
+    padding: 0 !important;
+    margin:0 !important;
+}
+.stat-header{
+    width: 90% !important;
+    margin: 0
+
+}
+
+.stat-para{
+    width: 90% !important;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.stat-count{
+    display: flex;
+    width: 75% !important;
+    justify-content: space-between;
+    margin: 1em;
+}
 
 
 }
@@ -118,6 +145,30 @@ h2.optimized-header-dark{
 
 
 }
+
+/*statistic-section*/
+
+.stat-header{
+    width: 90% !important;
+    margin: 0
+
+}
+
+.stat-para{
+    width: 90% !important;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.stat-count{
+    display: flex;
+    width: 75% !important;
+    justify-content: space-between;
+    margin: 1em;
+}
+
 }
 
 
