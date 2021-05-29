@@ -1,0 +1,42 @@
+/* small mobile */
+@media all and (min-width: 0px) {
+  .cardComponent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+  }
+  .card-container {
+    position: relative;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    text-align: center;
+    width: 256px;
+    height: 290px;
+    background: #ffffff;
+    box-shadow: -8px -8px 40px rgba(244, 235, 228, 0.5),
+      8px 8px 60px rgba(0, 0, 0, 0.06);
+    -webkit-shadow: -8px -8px 40px rgba(244, 235, 228, 0.5),
+      8px 8px 60px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: -8px -8px 40px rgba(244, 235, 228, 0.5),
+      8px 8px 60px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+  }
+
+  .card-container img {
+    margin: auto;
+    display: flex;
+    flex-direction: contain;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .card-container h3 {
+    font-weight: bold;
+  }
+}
