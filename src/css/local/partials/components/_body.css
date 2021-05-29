@@ -4,6 +4,7 @@
 		width: 80%;
 		margin: auto;
 	}
+	
 	.body div h1{
 		font: 1.5rem/28px var(--roboto-font);
 		font-weight: 500;
@@ -57,12 +58,8 @@
 	.body-button-lightmode a{
 		color: var(--black);
 	}
-	.body-cards{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		justify-items: center;
-	}
 }
+
 /* medium mobile */
 @media all and  (min-width: 375px){
 

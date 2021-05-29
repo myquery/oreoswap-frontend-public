@@ -1,25 +1,205 @@
-/* small mobile */
-@media all and  (min-width: 0px){
+/* small mobile and large mobile  */
+@media all and  (min-width: 0px) and (max-width:420px){
+    /*optimized-section*/
+    .optimized-container{
+
+        padding: 0.5em 0;
+        margin: 0.5em 0;
+      
+     
+    }
+    h2.optimized-header{
+    font: 1rem/1.5rem var(--roboto-font);
+    font-weight: 700;
+  
+}
+h2.optimized-header-dark{
+    font: 1rem/1.5rem var(--roboto-font);
+    font-weight: 700;
+  
+}
+
+
+    .switch-mode{
+        display:none;
+    }
+    .oreoswap-logo{
+        width: 100%;
+        
+    }
+
+    .optimized-container{
+        padding: 1em !important;
+        margin: 0.5em 0 !important;
+      
+     
+    }
+    
+    
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0;
+    width: 100% !important;
+    padding: 1em;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow-y: hidden;
+}
+    .card-optimized{
+  
+         width: 100%;
+        height: 14em; 
+    
+    }
+    .card-optimized-dark{
+  
+        width: 100%;
+       height: 14em; 
+   
+   }
+
+   .bkg_overlay{
+    width: 120em !important;
+    height: 90em !important;
+    position: absolute;
+    z-index: 0;
+    border-radius: 20%;
+    background: var(--navbar-darkmode-color);
+    left: 2em !important;
+    top: 10%;
+    opacity: 0.4;
 
 
 }
-/* medium mobile */
-@media all and  (min-width: 375px){
+   
+/*statistic-section*/
+
+.statictis-container{
+    padding: 0 !important;
+    margin:0 !important;
+}
+.stat-header{
+    width: 90% !important;
+    margin: 0
 
 }
 
-/* large mobile */
-@media all and (min-width: 420px){
+.stat-para{
+    width: 90% !important;
+    text-align: center;
+    margin: 0;
 
 }
+
+
+.stat-count{
+    display: flex;
+    width: 75% !important;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+
+}
+/* large mobile  to tablet */
+@media all and  (min-width: 420px) and (max-width:768px){
+ 
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2em 0;
+        width: 100% !important;
+        padding: 1em;    
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        overflow-y: hidden;
+    }
+    .card-optimized{
+  
+         width: 100%;
+        height: 14em; 
+    
+    }
+    .card-optimized-dark{
+  
+        width: 100%;
+       height: 14em; 
+   
+   }
+
+   .bkg_overlay{
+    width: 100em !important;
+    height: 65em !important;
+    position: absolute;
+    z-index: 0;
+    border-radius: 20%;
+    background: var(--navbar-darkmode-color);
+    left: 2em !important;
+    top: 1%;
+    opacity: 0.4;
+
+
+}
+
+/*statistic-section*/
+
+.stat-header{
+    width: 90% !important;
+    margin: 0
+
+}
+
+.stat-para{
+    width: 90% !important;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.stat-count{
+    display: flex;
+    width: 75% !important;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+}
+
 
 /* tablet */
-@media all and (min-width: 768px){
+@media all and (min-width: 768px) and (max-width: 1024px){
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2em 0;
+        width: 100% !important;
+        padding: 1em;    
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        overflow-y: hidden;
+    }
 
-}
-
-/* laptop */
-@media all and (min-width: 1024px){
+    .bkg_overlay{
+        width: 120em !important;
+        height: 55em !important;
+        position: absolute;
+        z-index: 0;
+        border-radius: 20%;
+        background: var(--navbar-darkmode-color);
+        left: 2em !important;
+        top: 1%;
+        opacity: 0.4;
+    
+    
+    }
 
 }
 

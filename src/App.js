@@ -3,6 +3,8 @@ import "./App.css";
 // components
 import Header from "./components/Header";
 import Banner from "./components/Banner";
+import StatisticSection from "./components/StatisticSection"
+import OptimizedSection from "./components/OPtimizedSection"
 import Newsletter from "./components/Newletter"
 import Footer from "./components/Footer"
 import Body from "./components/Body"
@@ -40,6 +42,14 @@ class App extends Component {
 				<Body 
 			    	isClicked = {this.state.isClicked}
 			    />
+				<StatisticSection
+				 	isClicked = {this.state.isClicked}
+				/>
+				<OptimizedSection
+					toggleMode = {toggleMode}
+					isClicked = {this.state.isClicked}
+				
+				/>
 			    <Newsletter 
 			    	isClicked = {this.state.isClicked}
 			    	newsletterLightBg = { newsletterLightBg } 
