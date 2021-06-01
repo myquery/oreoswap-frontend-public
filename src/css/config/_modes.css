@@ -42,3 +42,12 @@
 .cards-darkmode  input[type=email]:focus{
 	color: white;
 }
+.cards-lightmode{
+	background: var(--white);
+}
+.ever-growing-light, .opt-light{
+	background: var(--banner-choloclate-color);
+}
+.ever-growing-dark, .opt-dark{
+	background: var(--green-button-color);
+}

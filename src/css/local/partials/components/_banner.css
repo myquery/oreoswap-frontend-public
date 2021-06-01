@@ -10,7 +10,7 @@
 		margin: 0 0 1rem 0;
 	}
 	.banner div p{
-		font: 0.938rem/18px var(--roboto-font);
+		font: 1.125rem/22px var(--roboto-font);
 		margin: 0 0 1rem 0;
 	}
 	.banner{
@@ -33,7 +33,7 @@
 		margin: 0.5rem 0;
 	}
 	.banner-button a{
-		font: 0.75rem/0.875rem var(--roboto-font);
+		font: 1rem/0.875rem var(--roboto-font);
 		font-weight: 500;
 	}
 	.button-active{
@@ -41,6 +41,9 @@
 		background: var(--green-button-color);
 	}
 	.button-active a{
+		color: var(--white);
+	}
+	.button-active a:hover{
 		color: var(--white);
 	}
 	.banner-button-lightmode{
@@ -78,6 +81,7 @@
 	}
 	.banner-button-wrapper{
 		margin: auto;
+		justify-content: center;
 	}
 	.banner div h1{
 		font: 2rem/35px var(--roboto-font);
@@ -143,6 +147,9 @@
 	.banner-container{
 		justify-items: center;
 		grid-template-columns: 1.2fr 1fr
+	}
+	.banner-button-wrapper{
+		justify-content: start;
 	}
 	.banner div h1{
 		font: 3rem/56px var(--roboto-font);

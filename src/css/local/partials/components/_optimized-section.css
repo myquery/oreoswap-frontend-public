@@ -1,149 +1,140 @@
-.optimized-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 15% 1fr;
-    place-items: center;
-    width: 100vw;
-    padding: 2em;
-    margin: 1em 0;
-    overflow: hidden;
-  
- 
+/* small mobile */
+@media all and  (min-width: 0px){
+    .optimized-section{
+        position: relative;
+        overflow-y: hidden;
+        margin: 6.875rem 0;
+    }
+    .optimized-wrapper{
+        position: relative;
+        overflow-y: hidden;
+        width: 100%;
+        z-index: 2;
+    }
+    .optimized-card-container{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+    .optimized-section  h1{
+        font: 1.5rem/28px var(--roboto-font);
+        font-weight: 500;
+        text-align: center; 
+        margin-bottom: 4.125rem;
+    }
+    .optimized-section-bg{
+        position: absolute;
+        z-index: -1;
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 20%;
+    }
+    .opt-dark, .opt-light{
+        height: 22px;
+        z-index: -1;
+        margin: auto;
+        margin-top: -22px;
+        width: 200px;
+    }
 }
 
-
-h2{
-        text-align: center;
-    font: 2rem/2.5rem var(--roboto-font);
-    font-weight: 500;
-    margin:0 0 1.5rem 0;
-}
-h2.optimized-header{
-
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  
-}
-
-h2.optimized-header-dark{
-
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  
-}
-
-.optimized-header:before{
-    border-top: 2em solid var( --banner-choloclate-color);
-    content:"";
-    margin: 0 auto; /* this centers the line to the full width specified */
-    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-    top: 50%; left: 0; right: 0; bottom: 0;
-    width: 95%;
-    z-index: -1;
-
-
-  
-}
-.optimized-header-dark:before{
-    border-top: 2em solid var( --green-button-color);
-    content:"";
-    margin: 0 auto; /* this centers the line to the full width specified */
-    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-    top: 50%; left: 0; right: 0; bottom: 0;
-    width: 95%;
-    z-index: -1;
-
-
-  
-}
-
-
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2em 0;
-    width: 60%;
-    padding: 1em;    
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    overflow-y: hidden;
-}
-
-.card-optimized{
-    border-radius: 1.3em;
-    box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
-    padding: 1em;
-    width: 14em;
-    height: 14em;
-    text-align: center;
-    margin: 3em;
-    font-weight: 700;
-    background: var(--white);
-    z-index: 2;
+@media all and  (min-width: 320px){
 
 }
 
-.card-optimized-dark{
-    border-radius: 1.3em;
-    box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.1);
-    padding: 1em;
-    width: 14em;
-    height: 14em;
-    text-align: center;
-    margin: 3em;
-    font-weight: 700;
-    background: var(--navbar-darkmode-color);
-    z-index: 2;
-
-}
-.card-icon{
-    display: flex;
-    font-size: 1.5em;
-    background: #eee;
-    border-radius: 50%;
-    width: 30%;
-    height: 30%;
-    align-items: center;
-    justify-content: center;
-    margin:  0 auto;
-    margin-bottom: 1em;
-    margin-top: 1em;
-  
+/* medium mobile */
+@media all and  (min-width: 375px){
+    
 }
 
-.card-icon-dark{
-    display: flex;
-    font-size: 1.5em;
-    background: #eee;
-    border-radius: 50%;
-    width: 30%;
-    height: 30%;
-    align-items: center;
-    justify-content: center;
-    margin:  0 auto;
-    margin-bottom: 1em;
-    margin-top: 1em;
-  
+/* large mobile */
+@media all and (min-width: 420px){
+
 }
 
-.bkg_overlay{
-    width: 75%;
-    height: 52em;
-    position: absolute;
-    z-index: 0;
-    border-radius: 50%;
-    background: var(--navbar-darkmode-color);
-    left: -10%;
-    bottom: -25%;
-    opacity: 0.4;
+/* tablet */
+@media all and (min-width: 768px){
+    .optimized-section  h1{
+        font: 2rem/35px var(--roboto-font);
+        font-weight: 500;
+        margin-bottom: 4.125rem;
+    }
+    .optimized-card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .optimized-card:last-child{
+        grid-column: 1 / span 2;
+    }
+    .opt-dark, .opt-light{
+        height: 22px;
+        z-index: -1;
+        margin: auto;
+        margin-top: -22px;
+        width: 500px;
+    }
+    .optimized-section-bg{
+        width: 60%;
+    }
+}
 
+/* laptop */
+@media all and (min-width: 1024px){
+    .optimized-card-container{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 6rem 0;
+    }
+    .optimized-card:last-child{
+        grid-column: 3;
+    }
+    .optimized-section  h1{
+        font: 2rem/35px var(--roboto-font);
+        font-weight: 500;
+        margin-bottom: 4.125rem;
+    }
+    .optimized-section-bg{
+        width: 50%;
+    }
+    .opt-custom-card1{
+       margin-right: -9.375rem;
+       margin-top: 2rem;
+    }
+    .opt-custom-card{
+        margin-left: -9.375rem;
+        margin-top: 2rem;
+    }
+}
 
+/* bigger laptop/desktop */
+@media all and (min-width: 1440px){
+    .optimized-card-container{
+        width: 70%;
+        margin: auto;
+        padding: 6.5rem 0;
+    }
+    .optimized-section  h1{
+        font: 3rem/56px var(--roboto-font);
+        font-weight: 500;
+        margin-bottom: 4.125rem;
+    }
+    .opt-dark, .opt-light{
+        height: 22px;
+        z-index: -1;
+        margin: auto;
+        margin-top: -24px;
+        width: 800px;
+    }
+    .optimized-section-bg{
+        width: 50%;
+        margin-top: 0;
+    }
+}
+
+/* 4k */
+@media all and  (min-width: 2550px){
+    .optimized-section-bg{
+        width: 30%;
+        margin-top: -1px;
+    }
 }
