@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    /*color theme*/
+    --green-button-color: #266150;
+    --link-color: #333;
+    --link-menu-wallet-text:#fefefe;
+    --banner-choloclate-color: #dcaf94;
+    --brown-chocoloate-color: #372316;
+    --dark-mode-bkg-color: #100C18;
+    --banner-lightmode-color: #DDAF94;
+    --banner-darkmode-color: #2E413C;
+    --white: #FFFFFF;
+    --black: #131313;
+    --grey: #EBE8E8;
+    --navbar-darkmode-color: #353547;
+    --cards-darkmode-background: #27262C;
+    --roboto-font: 'Roboto', sans-serif;
+
+}
