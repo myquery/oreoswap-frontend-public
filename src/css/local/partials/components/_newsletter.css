@@ -11,9 +11,6 @@
 		margin: auto;
 		height: 160px;
 		border-radius: 10px;
-		box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.2);
-		-webkit-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.2);
-		-moz-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.2);
 		overflow-y: hidden;
 	}
 	.form-container{
@@ -45,8 +42,8 @@
 		background: var(--black);
 	}
 	input::placeholder{
-		font: 0.625rem/12px var(--roboto-font);
-		padding: 0.5rem;
+		font: 0.7rem/12px var(--roboto-font);
+		padding: 0.5rem ;
 	}
 	.newsletter-btn{
 		color: var(--white);
@@ -73,7 +70,7 @@
 		color: var(--white);
 		border-radius: 3px;
 		font: 0.625rem/12px var(--roboto-font);
-		padding: 0.4rem;
+		padding: 10px;
 		margin: 0 5px;
 	}
 	form{
@@ -89,21 +86,17 @@
 	    color: var(--green-button-color);
 	    font-size: 1.4em;
 	    margin:0 0.6em
-
 	}
 	.socials-icon-dark{
 		color: var(--white);
 		font-size: 1.4em;
 		margin:0 0.6em
 	}
-
 }
-
 /* large mobile */
 @media all and (min-width: 420px){
 
 }
-
 /* tablet */
 @media all and (min-width: 768px){
 	.newsletter-container{
@@ -121,7 +114,7 @@
 		color: var(--white);
 		border-radius: 3px;
 		font: 1rem/19px var(--roboto-font);
-		padding: 0.5rem 1rem;
+		padding: 0.8rem 1.5rem;
 		margin: 0 10px;
 	}
 	.newsletter h1{
@@ -134,22 +127,40 @@
 /* laptop */
 @media all and (min-width: 1024px){
 	.newsletter{
-		width: 60%;
+		width: 70%;
 	}
 	form{
 		margin: 0 0 1.5rem 0;
+	}
+	input{
+		width: 400px;
 	}
 	.newsletter h1{
 		font: 2rem/2.5rem var(--roboto-font);
 		font-weight: 500;
 		margin:0 0 1.5rem 0;
 	}
+	.socials-icon-light{
+	    color: var(--green-button-color);
+	    font-size: 1.5rem;
+	    margin:0 0.6em
+	}
+	.socials-icon-dark{
+		color: var(--white);
+		font-size: 1.5rem;
+		margin:0 0.6em
+	}
 }
 
 /* bigger laptop/desktop */
 @media all and (min-width: 1440px){
+	.newsletter{
+		width: 80%;
+		margin-bottom: -80px;
+	}
 	.newsletter-container{
-		height: 280px;
+		height: 350px;
+		border-radius: 20px;
 	}
 	.newsletter h1{
 		font: 3rem/3.5rem var(--roboto-font);
@@ -157,10 +168,11 @@
 		margin:2rem 0 2rem 0;
 	}
 	input{
-		width: 600px;
+		width: 700px;
 	}
 	.newsletter-btn{
 		margin: 0 15px;
+		padding: 1.25rem 3.875rem;
 	}
 	form{
 		margin:0 0 2rem 0;
@@ -168,6 +180,14 @@
 	input::placeholder{
 		font: 1rem/1.125rem var(--roboto-font);
 		padding: 0.5rem 0.5rem 0.5rem 2rem;
+	}
+	.socials-icon-light{
+	    color: var(--green-button-color);
+	    font-size: 2rem;
+	}
+	.socials-icon-dark{
+		color: var(--white);
+		font-size: 2rem;
 	}
 }
 

@@ -11,45 +11,6 @@
   font-size: 1.4em;
   margin:0 0.6em
 }
-.darkmodeButton {
-  border: 1px solid var(--grey);
-  border-radius: 5px;
-  outline: none;
-  padding: 0.5rem 0.8rem;
-  background: transparent;
-
-}
-.darkmodeButton a, .darkmodeButton{
-  color: #24292E;
-  font-weight: bold;
-}
-.darkmodeButton:hover{
-  border: 1px solid #EEBA47;
-  background: #EEBA47;
-  transition: 0.1s ease-in;
-}
-.darkmodeButton:hover a{
-  color: #24292E;
-}
-.lightmodeButton {
-  border: 1px solid #EEBA47;
-  border-radius: 5px;
-  outline: none;
-  padding: 0.5rem 0.8rem;
-  background: transparent;
-}
-.lightmodeButton a, .lightmodeButton{
-  color: #EEBA47;
-  font-weight: bold;
-}
-.lightmodeButton:hover{
-  background: #EEBA47;
-  transition: 0.1s ease-in;
-  color:  #24292E;
-}
-.lightmodeButton:hover a{
-  color: var(--black);
-}
 
 @media all and (min-width: 0px){
   .logo{
@@ -152,6 +113,9 @@
     font-weight: 500;
     align-items: center;
   }
+  .navbar-button a:hover{
+    color: var(--white);
+  }
 }
 @media all and (min-width: 400px){
   .nav1 > ul{
@@ -195,9 +159,9 @@
     font-weight: bold;
   }
   .navbar-button{
-    padding: 1rem 2rem;
+    padding: 0.625rem 1rem;
     outline: none;
-    border-radius: 20px; 
+    border-radius: 10px; 
     border: none; 
     background: var(--green-button-color);  
   }

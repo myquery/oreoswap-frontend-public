@@ -1,15 +1,22 @@
 import "../css/local/partials/components/_statistic-section.css"
 const StatisticSection = () => {
     return (
-        <section className="statictis-container">
-            <div className="stat-header"><h2>An ever-growing protocol ecosystem</h2></div>
-            <div className="stat-para"><p>Designed to improve user experience and contribute to the DEX platform usage with support for significant features like swapping, lottery system, P2P and liquidity pool </p></div>
-            <div className="stat-count">
-                <div className="stat-1"><span>$248 </span><p>All time volume</p></div>
-                <div className="stat-2"> <span>52K </span><p>Liquidity Providers</p></div>
-                <div className="stat-3"><span>40M </span><p>All Time Traders</p></div>
-                <div className="stat-4"><span>180 </span><p>Defi integrations</p></div>
+        <section className="stats text-center">
+            <div className="wrapper stats-container">
+                <h2>An ever-growing protocol ecosystem</h2>
+                <p className="stats-para">
+                    Designed to improve user experience and contribute to the DEX 
+                    platform usage with support for significant features like swapping, 
+                    lottery system, P2P and liquidity pool 
+                </p>
+                <div className="stats-count">
+                    <div className="stat"><span>$248 <br/> </span><span className="line-break1 stats-text">All time </span> <span className="line-break2 stats-text">volume</span></div>
+                    <div className="stat"> <span>52K <br/> </span><span className="line-break1 stats-text">Liquidity</span> <span className="line-break2 stats-text"> Providers</span></div>
+                    <div className="stat"><span>48M <br/> </span><span className="line-break1 stats-text">All Time </span> <span className="line-break2 stats-text">Traders</span></div>
+                    <div className="stat"><span>180 <br/> </span><span className="line-break1 stats-text">Defi </span> <span className="line-break2 stats-text">integrations</span></div>
+                </div>
             </div>
+           
         </section>
     )
 }

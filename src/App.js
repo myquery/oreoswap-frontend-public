@@ -4,13 +4,17 @@ import "./App.css";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import StatisticSection from "./components/StatisticSection"
+import Body from "./components/Body"
 import OptimizedSection from "./components/OPtimizedSection"
 import Newsletter from "./components/Newletter"
 import Footer from "./components/Footer"
-import Body from "./components/Body"
-// icons
-import newsletterDarkBg from "./icons/newsletter-vector-dark.svg"
-import newsletterLightBg from "./icons/newsletter-vector-light.svg"
+// vectors
+import newsletterDarkBg from "./vectors/newsletter-vector-dark.svg"
+import newsletterLightBg from "./vectors/newsletter-vector-light.svg"
+import everGrowingDarkBg from "./vectors/ever-growing-vector-dark.svg"
+import everGrowingLightBg from "./vectors/ever-growing-vector-light.svg"
+import optimizedLightBg from "./vectors/optimized-vector-light.svg"
+import optimizedDarkBg from "./vectors/optimized-vector-dark.svg"
 
 class App extends Component {
 	state = {
@@ -39,16 +43,18 @@ class App extends Component {
 			    <Banner 
 			    	isClicked = {this.state.isClicked}
 			    />
-				<Body 
-			    	isClicked = {this.state.isClicked}
-			    />
 				<StatisticSection
 				 	isClicked = {this.state.isClicked}
 				/>
+				<Body 
+			    	isClicked = {this.state.isClicked}
+			    	everGrowingDarkBg = { everGrowingDarkBg }
+			    	everGrowingLightBg = { everGrowingLightBg }
+			    />
 				<OptimizedSection
-					toggleMode = {toggleMode}
 					isClicked = {this.state.isClicked}
-				
+					optimizedLightBg = {optimizedLightBg}
+					optimizedDarkBg = {optimizedDarkBg}		
 				/>
 			    <Newsletter 
 			    	isClicked = {this.state.isClicked}

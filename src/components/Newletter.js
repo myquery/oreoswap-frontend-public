@@ -18,8 +18,7 @@ const Newsletter = ({ isClicked, newsletterLightBg, newsletterDarkBg }) => {
 					    <i className={isClicked ? "bi bi-telegram socials-icon-dark" :  "bi bi-telegram socials-icon-light"}></i>
 					</div>
 				</div>
-			</div>
-			
+			</div>	
 		</section>
 	)
 }
