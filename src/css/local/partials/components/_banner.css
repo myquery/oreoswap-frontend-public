@@ -26,6 +26,10 @@
 	.banner-img{
 		display: none;
 	}
+	.banner-button-wrapper{
+		display: flex;
+		flex-direction: column;
+	}
 	.banner-button{
 		padding: 12px 10px;
 		outline: none;
@@ -82,6 +86,7 @@
 	.banner-button-wrapper{
 		margin: auto;
 		justify-content: center;
+		flex-direction: row;
 	}
 	.banner div h1{
 		font: 2rem/35px var(--roboto-font);
@@ -107,6 +112,11 @@
 	.banner{
 		text-align: left;
 		padding: 8rem 0;
+	}
+	.banner-button-wrapper{
+		margin: auto;
+		justify-content: center;
+		flex-direction: column;
 	}
 	.wrapper{
 		width: 90%;
@@ -150,6 +160,7 @@
 	}
 	.banner-button-wrapper{
 		justify-content: start;
+		flex-direction: row;
 	}
 	.banner div h1{
 		font: 3rem/56px var(--roboto-font);
@@ -164,6 +175,7 @@
 		padding: 1rem 2rem;
 		outline: none;
 	}
+
 }
 
 /* 4k */

@@ -7,6 +7,7 @@
 }
 .lightmode a{
 	color: var(--black);
+	text-decoration: none;
 }
 .lightmode a:hover{
 	text-decoration: none;
@@ -18,6 +19,7 @@
 }
 .darkmode a{
 	color: var(--white);
+	text-decoration: none;
 }
 .darkmode a:hover{
 	text-decoration: none;
