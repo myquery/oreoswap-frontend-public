@@ -17,12 +17,6 @@
 		padding: 3rem 0;
 		text-align: center;
 	}
-	.banner-bg-lightmode{
-		background: var(--banner-lightmode-color);	
-	}
-	.banner-bg-darkmode{
-		background: var(--banner-darkmode-color);
-	}
 	.banner-img{
 		display: none;
 	}
