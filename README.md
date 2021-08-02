@@ -8,6 +8,6 @@ OreoSwap is a community project powered by volunteer forces from Binance Develop
 
 ### `Landing Page Implemention`
 
-The landing page is developed using simple css/html architecture, with mobile first approach and separation of concerns.
+The landing page is developed using React with mobile first approach and separation of concerns.
 
 
