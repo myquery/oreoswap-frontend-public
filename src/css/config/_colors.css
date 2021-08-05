@@ -5,16 +5,16 @@
     --green-button-color: #266150;
     --link-color: #333;
     --link-menu-wallet-text:#fefefe;
-    --banner-choloclate-color: #dcaf94;
-    --brown-chocoloate-color: #372316;
-    --dark-mode-bkg-color: #100C18;
+    --banner-choloclate-color: #DDAF94;
+    --brown-chocoloate-color: #4F4846;
+    --dark-mode-bkg-color: #011B13;
     --banner-lightmode-color: #DDAF94;
-    --banner-darkmode-color: #2E413C;
+    --banner-darkmode-color: #266150;
     --white: #FFFFFF;
     --black: #131313;
     --grey: #EBE8E8;
-    --navbar-darkmode-color: #353547;
-    --cards-darkmode-background: #27262C;
+    --navbar-darkmode-color: #266150;
+    --cards-darkmode-background: #0B0E0D;
     --roboto-font: 'Roboto', sans-serif;
 
 }
