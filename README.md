@@ -10,4 +10,8 @@ OreoSwap is a community project powered by volunteer forces from Binance Develop
 
 The landing page is developed using simple css/html architecture, with mobile first approach and separation of concerns.
 
+### `Github Workflow`
 
+- fork the repository
+- clone the repository, run **git clone https://github.com/Oreoswap-BSC/oreoswap-frontend-public.git**
+- create a branch with your issue name(e.g we working on navbar issue... run **git checkout -b navbar** )
