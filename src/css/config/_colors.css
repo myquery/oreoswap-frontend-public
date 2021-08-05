@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
 :root{
     /*color theme*/
     --green-button-color: #266150;
@@ -15,6 +13,6 @@
     --grey: #EBE8E8;
     --navbar-darkmode-color: #353547;
     --cards-darkmode-background: #27262C;
-    --roboto-font: 'Roboto', sans-serif;
+    
 
 }
