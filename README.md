@@ -15,3 +15,10 @@ The landing page is developed using simple css/html architecture, with mobile fi
 - fork the repository
 - clone the repository, run **git clone https://github.com/Oreoswap-BSC/oreoswap-frontend-public.git**
 - create a branch with your issue name(e.g we working on navbar issue... run **git checkout -b navbar** )
+- after you're done with your task run **git add .**
+- then **git commit -m"your commit message"** (eg git commit -m "added toogle button on the navbar")
+- set upstream.. run **git push -u origin 'your branch name'** (eg **git push -u origin navbar**)
+- then finally create a pull request
+
+
+NB remember to always pull from origin before working and pushing
