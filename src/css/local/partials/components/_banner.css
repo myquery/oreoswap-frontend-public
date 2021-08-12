@@ -1,9 +1,18 @@
 /* small mobile */
+/* .banner-container */
 @media all and  (min-width: 0px){
 	.wrapper{
 		width: 80%;
 		margin: auto;
 	}
+
+	.banner-button-wrapper{
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+
 	.banner div h1{
 		font: 1.5rem/28px var(--roboto-font);
 		font-weight: 500;
@@ -20,11 +29,8 @@
 	.banner-img{
 		display: none;
 	}
-	.banner-button-wrapper{
-		display: flex;
-		flex-direction: column;
-	}
-	.banner-button{
+
+	.banner-button .banner-button-darkmod{
 		padding: 12px 10px;
 		outline: none;
 		border-radius: 9px;
@@ -79,9 +85,11 @@
 	}
 	.banner-button-wrapper{
 		margin: auto;
+		display: flex;
 		justify-content: center;
 		flex-direction: row;
 	}
+
 	.banner div h1{
 		font: 2rem/35px var(--roboto-font);
 		font-weight: 500;
@@ -104,8 +112,12 @@
 /* laptop */
 @media all and (min-width: 1024px){
 	.banner{
-		text-align: left;
+		text-align: center;
 		padding: 8rem 0;
+	}
+	.small{
+		width: 154px;
+		height: 56px;
 	}
 	.banner-button-wrapper{
 		margin: auto;
@@ -127,9 +139,9 @@
 		font: 1.35rem/28px var(--roboto-font);
 	}
 	.banner-container{
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		justify-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.banner-button{
 		padding: 12px 83px;
@@ -138,8 +150,16 @@
 		margin: 0.5rem 1rem 0.5rem 0;
 	}
 	.banner-button a{
-		font: 1.25rem/23px var(--roboto-font);
+		font: 1.25rem/28px var(--roboto-font);
 		font-weight: 500;
+		
+		line-height: 21px;
+	}
+	#smallText{
+		font: 14px var(--roboto-font);
+		font-weight: 500;
+		
+		line-height: 21px;
 	}
 }
 
@@ -153,7 +173,7 @@
 		grid-template-columns: 1.2fr 1fr
 	}
 	.banner-button-wrapper{
-		justify-content: start;
+		justify-content: center;
 		flex-direction: row;
 	}
 	.banner div h1{
