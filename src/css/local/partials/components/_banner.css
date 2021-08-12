@@ -10,7 +10,8 @@
 		margin: auto;
 		display: flex;
 		justify-content: center;
-		flex-direction: row;
+		flex-direction: column;
+		
 	}
 
 	.banner div h1{
@@ -39,6 +40,12 @@
 	.banner-button a{
 		font: 1rem/0.875rem var(--roboto-font);
 		font-weight: 500;
+	}
+	.banner-button{
+		padding: 12px 83px;
+		outline: none;
+		border-radius: 20px;
+		margin: 0.5rem 1rem 0.5rem 0;
 	}
 	.button-active{
 		border:  none;
@@ -106,6 +113,12 @@
 	.banner-button a{
 		font: 1rem/24px var(--roboto-font);
 		font-weight: 500;
+		border-radius: 20px;
+	}
+	#smallText{
+		font: 14px var(--roboto-font);
+		font-weight: 500;
+		
 	}
 }
 
@@ -122,7 +135,7 @@
 	.banner-button-wrapper{
 		margin: auto;
 		justify-content: center;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	.wrapper{
 		width: 90%;
