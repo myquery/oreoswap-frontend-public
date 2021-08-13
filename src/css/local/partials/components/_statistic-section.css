@@ -1,5 +1,14 @@
 /* small mobile */
 @media all and  (min-width: 0px){
+    .bg{
+        background: linear-gradient(96.94deg, rgba(255, 255, 255, 0.12) 7.77%, rgba(255, 255, 255, 0.03) 117.94%);
+position: relative;
+border-radius: 5px;
+-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    }
+   
     .stats h2{
         font: 1.25rem/23px var(--roboto-font);
         font-weight: 500;
@@ -14,6 +23,8 @@
         grid-template-columns: repeat(2, 1fr);
         grid-auto-flow: dense; 
         margin-bottom: 3.75rem;
+        
+
     }
     .line-break1::after{
        content: "\a";
@@ -22,7 +33,7 @@
     .stat{
         font: 1.5rem/1.3rem var(--roboto-font);
         font-weight: 500;
-        margin: 0.5rem 0;
+        margin: 2.5rem 0;
         overflow: hidden;
         margin-bottom: 2.625rem;
         filter: brightness(700%);
@@ -95,7 +106,7 @@
     .stat{
         font: 2.25rem/28px var(--roboto-font);
         font-weight: 500;
-        margin: 0.5rem 0;
+        margin: 2.5rem 0;
         overflow: hidden;
         margin-bottom: 2.625rem;
         filter: brightness(700%);

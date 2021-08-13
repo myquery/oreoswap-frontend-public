@@ -3,7 +3,7 @@
 }
 .lightmode, .cards-lightmode{
 	color: var(--black);
-	background: var(--white);
+	background: var(--banner-lightmode-color);
 	transition: 0.2s ease;
 }
 .lightmode a{
@@ -16,7 +16,7 @@
 }
 .darkmode{
 	color: var(--white);
-	background: var(--black);
+	background: var(--banner-darkmode-color);
 	transition: 0.2s ease;
 }
 .darkmode a{
@@ -32,7 +32,7 @@
   transition: 0.2s ease;
 }
 .navbar-lightmode{
-  background: var(--white);
+  background: var(--banner-lightmode-color);
   transition: 0.2s ease;
 }
 .banner-bg-lightmode{
@@ -54,7 +54,7 @@
 	color: white;
 }
 .cards-lightmode{
-	background: var(--white);
+	background: var(--banner-lightmode-color);
 }
 .ever-growing-light, .opt-light{
 	background: var(--banner-choloclate-color);
