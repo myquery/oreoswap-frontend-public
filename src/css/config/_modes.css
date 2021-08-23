@@ -3,7 +3,7 @@
 }
 .lightmode, .cards-lightmode{
 	color: var(--black);
-	background: var(--white);
+	background: var(--grey);
 	transition: 0.2s ease;
 }
 .lightmode a{
@@ -16,7 +16,7 @@
 }
 .darkmode{
 	color: var(--white);
-	background: var(--black);
+	background: var( --dark-mode-bkg-color);
 	transition: 0.2s ease;
 }
 .darkmode a{
@@ -44,8 +44,13 @@
 	transition: 0.2s ease;
 }
 .footer-lightmode{
-	background: var(--banner-lightmode-color);
+	background: var(--grey);
 	
+}
+
+.footer-darkmode {
+	background-color: var( --dark-mode-bkg-color);
+	color: var(--white);
 }
 .cards-darkmode{
 	background: var(--cards-darkmode-background);
