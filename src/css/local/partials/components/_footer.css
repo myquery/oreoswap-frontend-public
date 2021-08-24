@@ -84,6 +84,7 @@
 	width: 80%;
 	margin: 0 auto;
 	color: var(--white)!important;
+	align-items: center;
 }
 
 .footer__link {
