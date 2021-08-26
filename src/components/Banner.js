@@ -13,7 +13,7 @@ const Banner = () => {
 				<div className="buttons">
 					<a href="#" className="btn smallBtn" type="button">Use Exchange</a>
 					<a href="#" className="btn largeBtn" type="button">Documention</a>
-					<a href="#" className="btn mediumBtn" type="button">FAQs</a>
+					<a href="#" className="btn mediumBtn" type="button">FAQ</a>
 				</div>
 			</div>
 		</section>
