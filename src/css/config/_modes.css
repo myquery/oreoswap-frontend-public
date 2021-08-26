@@ -50,7 +50,22 @@
 }
 .banner-bg-darkmode{
 	background: var(--banner-darkmode-color);
-	transition: 0.2s ease;
+	transition: 0.2s ease;	
+}
+
+.banner .smallBtn {
+	background-color: var(--green-button-color);
+	color: var(--white);
+	
+}
+
+.banner .largeBtn {
+	border: 1px solid var(--white);
+	border-radius: 10px;
+}
+.banner .mediumBtn {
+	border: 1px solid var(--white);
+	border-radius: 10px;
 }
 .footer-lightmode{
 	background: var(--grey);
