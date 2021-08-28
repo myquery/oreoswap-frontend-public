@@ -3,7 +3,7 @@ const StatisticSection = () => {
     return (
         <section className="stats text-center">
             
-            <div className="stat">
+			<div className="stat">
 					<div className="counter">
 						<p className="count">$248</p>
 						<small className="countName">All time volume</small>
@@ -24,6 +24,9 @@ const StatisticSection = () => {
 						<small className="countName">Defi integrations</small>
 					</div>
 				</div>
+
+
+
         </section>
     )
 }
