@@ -7,9 +7,14 @@
 	transition: 0.2s ease;
 }
 .lightmode a{
-	color: var(--black);
+	color: var(--light-mode-links-color);
 	text-decoration: none;
 }
+
+.lightmode i{
+	color: var(--light-mode-links-color);
+}
+
 .lightmode a:hover{
 	text-decoration: none;
 	color: var(--black);
@@ -22,6 +27,10 @@
 .darkmode a{
 	color: var(--white);
 	text-decoration: none;
+}
+
+.darkmode i{
+	color: var(--white);
 }
 .darkmode a:hover{
 	text-decoration: none;
@@ -41,19 +50,20 @@
 }
 .banner-bg-darkmode{
 	background: var(--banner-darkmode-color);
-	transition: 0.2s ease;	
+	transition: 0.2s ease;
 }
 
 .banner .smallBtn {
 	background-color: var(--green-button-color);
 	color: var(--white);
-	
+	border-radius: 10px;
 }
 
 .banner .largeBtn {
 	border: 1px solid var(--white);
 	border-radius: 10px;
 }
+
 .banner .mediumBtn {
 	border: 1px solid var(--white);
 	border-radius: 10px;
