@@ -16,7 +16,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                     </li>
                      <li  className={toggleNavbar ? "d-none" : " ml-auto"}>
                         <a href="#" onClick={toggleMode} className="m-auto">
-                            <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
+                              <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
                         </a>
                     </li>
                     <div className={toggleNavbar ? "ml-auto": "m-0"} onClick={handleClick}>

@@ -8,6 +8,12 @@
     --dark-mode-bkg-color: #011813;
     --banner-lightmode-color: #DDAF94;
     --banner-darkmode-color: #266150;
+    --transparent: transparent;
+    --features-lightmode-color: #183f33;
+    --features--glassmorphism-white-color: rgba(255, 255, 255, 0.3);
+    --features--glassmorphism-black-color: rgba(255, 255, 255, 0.05);
+    --features--glassmorphism-border: rgba(209, 213, 219, 0.3);
+    --features-liquidity-color: #0B0E0D;
     --white: #FFFFFF;
     --black: #131313;
     --grey: #EBE8E8;
