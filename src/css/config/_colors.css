@@ -5,7 +5,8 @@
     --link-menu-wallet-text:#fefefe;
     --banner-choloclate-color: #DDAF94;
     --brown-chocoloate-color: #4F4846;
-    --dark-mode-bkg-color: #011813;
+    --dark-mode-bkg-color: #011B13;
+    --light-mode-bkg-color: #E5E5E5;
     --banner-lightmode-color: #DDAF94;
     --banner-darkmode-color: #266150;
     --transparent: transparent;
@@ -19,6 +20,8 @@
     --grey: #EBE8E8;
     --navbar-darkmode-color: #266150;
     --cards-darkmode-background: #0B0E0D;
+    --dark-mode-links-color: #FFFFFF;
+    --light-mode-links-color: #266150;
     
 
 }

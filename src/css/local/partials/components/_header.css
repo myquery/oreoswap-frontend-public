@@ -10,6 +10,21 @@
   margin:0 0.6em
 }
 
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.darkmode .header{
+  background-color: var(--dark-mode-bkg-color);
+}
+
+.lightmode .header{
+  background-color: var(--light-mode-bkg-color);
+}
+
+
 @media all and (min-width: 0px){
   .logo{
     width: 30px;
@@ -23,14 +38,30 @@
     width: 100%;
     padding: 4rem 0 6rem;
     margin-top: -2rem;
+    text-align: center;
   }
   .nav1 > ul li{
     padding: 1rem 0;
-   }
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .sidebar-dark:active{
+    background-color: var(--dark-mode-bkg-color);
+    border-left: 5px solid var(--light-mode-links-color);
+  }
+
+  .sidebar-light:active{
+    background-color: var(--white);
+    border-left: 5px solid var(--light-mode-links-color);
+  }
+
   .nav1 > ul li a{
     font: 0.9rem/1.25rem var(--roboto-font);
     letter-spacing: 0.014em;
-    font-weight: 500;
+    font-weight: 600;
+    margin-left: 7px;
   }
   .hamburger{
     border-radius: 60px;
@@ -81,7 +112,7 @@
   nav ul div{
     width: 100px;
     height: 2px;
-    background: #C4C4C4;
+    background-color: #E5E5E5;
   }
   .mobilenav{
     display: flex;
@@ -95,9 +126,27 @@
   .nav,.ln3,.desktop-nav{
     display: none;
   }
-  .nav1{
-    display: block;
+
+  /* Mobile side navbar */
+  .hide-mobilenav{
+    left: -1024px;
   }
+
+  .hide-visibility{
+    visibility: hidden;
+  }
+
+
+  .nav1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 100vh;
+    width: 240px;
+    transition: all 1s ease;
+  }
+
    .navbar-button{
     padding: 0.5rem 1rem;
     outline: none;
@@ -105,6 +154,7 @@
     border: none; 
     background: var(--green-button-color);  
     display: flex;
+    margin: 0 auto;
   }
   .navbar-button a{
     color: var(--white);
