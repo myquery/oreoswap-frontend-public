@@ -6,6 +6,7 @@ import Banner from "./components/Banner";
 import StatisticSection from "./components/StatisticSection"
 import Body from "./components/Body"
 import OptimizedSection from "./components/OPtimizedSection"
+import Features from "./components/Features"
 import Newsletter from "./components/Newletter"
 import Footer from "./components/Footer"
 // vectors
@@ -55,6 +56,9 @@ class App extends Component {
 					isClicked = {this.state.isClicked}
 					optimizedLightBg = {optimizedLightBg}
 					optimizedDarkBg = {optimizedDarkBg}		
+				/>
+				<Features
+					isClicked = {this.state.isClicked}
 				/>
 			    <Newsletter 
 			    	isClicked = {this.state.isClicked}

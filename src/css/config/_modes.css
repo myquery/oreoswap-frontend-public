@@ -53,6 +53,18 @@
 	transition: 0.2s ease;
 }
 
+.features-darkmode{
+	background: var(--transparent);
+	color: var(--white);
+	
+}
+
+.features-lightmode{
+	background: var(--transparent);
+	color: var(--features-lightmode-color);
+}
+
+
 .banner .smallBtn {
 	background-color: var(--green-button-color);
 	color: var(--white);
@@ -70,6 +82,7 @@
 }
 .footer-lightmode{
 	background: var(--grey);
+	
 	
 }
 
