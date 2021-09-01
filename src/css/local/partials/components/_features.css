@@ -7,8 +7,8 @@
   @media all and (min-width: 0px){
 
     .features__wrapper{
-        margin: 0rem 2.5rem 4.5rem 2.5rem;
-        max-width: 1024px;
+        margin: -2rem 2.5rem 4.5rem 2.5rem;
+        max-width: 920px;
           
     }
 
@@ -25,9 +25,17 @@
       font-weight: 500;
       font-size: 1.1rem;
       line-height: 1.7;
-      text-align: justify;
+      text-align: center;
       text-justify: inter-word;
-      margin-bottom: 2.6rem;
+    }
+
+    .features__header__lasttext-lightmode{
+      font-weight: 500;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: center;
+      text-justify: inter-word;
+      margin-bottom: 4.5rem;
     }
 
     .features__header-darkmode{
@@ -36,6 +44,7 @@
       font-weight: 500;
       font-size: 1.8rem;
       margin-bottom: 1.2rem;
+      margin-top: 1rem;
       line-height: 1.7;
     }
 
@@ -43,9 +52,17 @@
       font-weight: 400;
       font-size: 1.1rem;
       line-height: 1.7;
-      text-align: justify;
+      text-align: center;
       text-justify: inter-word;
-      margin-bottom: 1.6rem;
+    }
+
+    .features__header__lasttext-darkmode{
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: center;
+      text-justify: inter-word;
+      margin-bottom: 4.5rem;
     }
 
     .features__display{
@@ -53,8 +70,9 @@
     }
 
     .features__display--liquidity-lightmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.9rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -72,8 +90,9 @@
     }
 
     .features__display--liquidity-darkmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.9rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -96,8 +115,9 @@
     }
 
     .features__display--transaction-lightmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.9rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -115,8 +135,9 @@
     }
 
     .features__display--transaction-darkmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.9rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -139,8 +160,9 @@
     }
 
     .features__display--payment-lightmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.9rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -154,12 +176,13 @@
       display: inline-block;
       background: var(--features-liquidity-color);
       border-radius: 3.88889px;
-      padding: .5rem;
+      padding: 1rem;
     }
 
     .features__display--payment-darkmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.9rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -173,7 +196,7 @@
       display: inline-block;
       background: var(--features-liquidity-color);
       border-radius: 3.88889px;
-      padding: .5rem;
+      padding: 1rem;
     }
 
     .features__display--payment--text{
@@ -182,8 +205,9 @@
     }
 
     .features__display--staking-lightmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.2rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -201,8 +225,9 @@
     }
 
     .features__display--staking-darkmode{
-      margin: 0 auto 2rem auto;
-      width: 60vw;
+      margin: 0 auto 1.2rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -225,8 +250,9 @@
     }
 
     .features__display--portfolio-lightmode{
-      margin: 0 auto 0 auto;
-      width: 60vw;
+      margin: 0 auto 1.2rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -244,8 +270,9 @@
     }
 
     .features__display--portfolio-darkmode{
-      margin: 0 auto 0 auto;
-      width: 60vw;
+      margin: 0 auto 1.2rem auto;
+      width: 14rem;     
+      height: 10rem;
       text-align: -webkit-center;
       padding: 1.3rem;
       backdrop-filter: blur(16px) saturate(180%);
@@ -273,218 +300,41 @@
   } */
   @media all and (min-width: 768px){
 
+    .features__wrapper{
+      margin: 0rem auto 3.5rem auto;
+      max-width: 920px;
+        
+    }
+
     .features__display{
       display: flex;
       flex-wrap: wrap;
     }
-
-    .features__display--liquidity-lightmode{
-      width: 30vw;
-      overflow: hidden;
-      height: 25vh;
-    }
-
-    .features__display--liquidity-darkmode{
-      width: 30vw;
-      overflow: hidden;
-      height: 25vh;
-    }
-
-    .features__display--transaction-lightmode{
-      width: 30vw;
-      overflow: hidden;
-      height: 25vh;
-    }
-
-    .features__display--transaction-darkmode{
-      width: 30vw;
-      overflow: hidden;
-      height: 25vh;
-    }
-
-    .features__display--payment-lightmode{
-      width: 30vw;
-      overflow: hidden;
-      height: 25vh;
-    }
-
-    .features__display--payment-darkmode{
-      width: 30vw;
-      overflow: hidden;
-      height: 25vh;
-    }
-
-    .features__display--staking-lightmode{
-      width: 30vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--staking-darkmode{
-      width: 30vw;
-      overflow: hidden;
-      height: 25vh;
-    }
-
-    .features__display--portfolio-lightmode{
-      width: 30vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--portfolio-darkmode{
-      width: 30vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
   }
+
   @media all and (min-width: 1024px){
 
     .features__wrapper{
       margin: 0rem auto 3.5rem auto;
-      max-width: 1024px;
-        
-  }
+      max-width: 920px;    
+    }
 
     .features__display{
       display: flex;
       flex-wrap: wrap;
     }
-
-    .features__display--liquidity-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--liquidity-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--transaction-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--transaction-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--payment-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--payment-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--staking-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--staking-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--portfolio-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--portfolio-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
   }
+
   @media all and (min-width: 1440px){
 
     .features__wrapper{
-      margin: 0rem auto 3.5rem auto;
-      max-width: 1024px; 
+      margin: 0rem auto 4rem auto;
+      max-width: 920px;
     }
 
     .features__display{
       display: flex;
       flex-wrap: wrap;
     }
-
-    .features__display--liquidity-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--liquidity-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--transaction-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--transaction-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--payment-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--payment-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--staking-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--staking-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--portfolio-lightmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    .features__display--portfolio-darkmode{
-      width: 26vw;
-      height: 25vh;
-      overflow: hidden;
-    }
-
-    
   }
   
