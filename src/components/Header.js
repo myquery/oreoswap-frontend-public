@@ -113,7 +113,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                     <nav className="topnav">
                         <ul className="d-flex list-unstyled my-3">
                             <li className="m-0">
-                                <a href="/"><img src="img/oreoswap-brown-logo.png"  alt="company logo" className="logo mr-auto"/></a>
+                                <a href="/"><img src={isClicked ? "img/oreoswap-white-logo.png" :"img/oreoswap-brown-logo.png"}  alt="company logo" className="logo mr-auto"/></a>
                             </li>
                             <li className="ml-auto my-auto">
                                 <a href="#">Team</a>
