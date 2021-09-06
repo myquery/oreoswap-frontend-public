@@ -4,7 +4,7 @@
 }
 
 .hero {
-	width: 70%;
+	width: 100%;
 	margin: 70px auto;
 	font-size: 36px;
 	font-family: var(--roboto-font);
@@ -18,6 +18,8 @@
 .topHeading {
 	overflow: hidden;
 	margin-top: 20px;
+	font-size: 38px;
+	
 }
 
 /* .heroSubHeading { */
@@ -52,7 +54,7 @@
 
 .btn {
 	display: block;
-	border: 1px solid var(--white);
+	/* border: 1px solid var(--black); */
 	border-radius: 25px;
 	margin: 15px 0px;
 	width: 150px;
