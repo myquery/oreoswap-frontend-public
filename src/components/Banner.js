@@ -14,8 +14,8 @@ const Banner = () => {
 				</div>
 				<div className="buttons">
 					<a href="#" className="btn smallBtn" tygpe="button">Use Exchange</a>
-					<a href="#" className="btn largeBtn" type="button">Documention</a>
-					<a href="#" className="btn mediumBtn" type="button">FAQs</a>
+					<a href="#" className="btn largeBtn btns" type="button">Documention</a>
+					<a href="#" className="btn mediumBtn btns" type="button">FAQs</a>
 				</div>
 			</div>
 			</div>

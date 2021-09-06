@@ -19,6 +19,11 @@
 	text-decoration: none;
 	color: var(--black);
 }
+
+.lightmode .btns {
+	border: 1px solid var(--black);
+}
+
 .darkmode{
 	color: var(--white);
 	background: var( --dark-mode-bkg-color);
@@ -36,6 +41,10 @@
 	text-decoration: none;
 	color: var(--white);
 }
+
+.darkmode .btns {
+	border: 1px solid var(--white);
+}
 .navbar-darkmode, .footer-darkmode{
   background: var(--navbar-darkmode-color);
   transition: 0.2s ease;
@@ -47,11 +56,16 @@
 .banner-bg-lightmode{
 	background: var(--banner-lightmode-color);	
 	transition: 0.2s ease;
+	border: 1px solid #333;
 }
 .banner-bg-darkmode{
 	background: var(--banner-darkmode-color);
 	transition: 0.2s ease;
 }
+
+/* .banner-bg-darkmode .btn {
+	border: 1px solid var(--white);
+} */
 
 .features-darkmode{
 	background: var(--transparent);
@@ -72,12 +86,12 @@
 }
 
 .banner .largeBtn {
-	border: 1px solid var(--white);
+	/* border: 1px solid var(--white); */
 	border-radius: 10px;
 }
 
 .banner .mediumBtn {
-	border: 1px solid var(--white);
+	/* border: 1px solid var(--white); */
 	border-radius: 10px;
 }
 .footer-lightmode{
