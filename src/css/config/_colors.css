@@ -1,27 +1,25 @@
-:root{
-    /*color theme*/
-    --green-button-color: #266150;
-    --link-color: #333;
-    --link-menu-wallet-text:#fefefe;
-    --banner-choloclate-color: #DDAF94;
-    --brown-chocoloate-color: #4F4846;
-    --dark-mode-bkg-color: #011B13;
-    --light-mode-bkg-color: #E5E5E5;
-    --banner-lightmode-color: #DDAF94;
-    --banner-darkmode-color: #266150;
-    --transparent: transparent;
-    --features-lightmode-color: #183f33;
-    --features--glassmorphism-white-color: rgba(255, 255, 255, 0.3);
-    --features--glassmorphism-black-color: rgba(255, 255, 255, 0.05);
-    --features--glassmorphism-border: rgba(209, 213, 219, 0.3);
-    --features-liquidity-color: #0B0E0D;
-    --white: #FFFFFF;
-    --black: #131313;
-    --grey: #EBE8E8;
-    --navbar-darkmode-color: #266150;
-    --cards-darkmode-background: #0B0E0D;
-    --dark-mode-links-color: #FFFFFF;
-    --light-mode-links-color: #266150;
-    
-
+:root {
+  /*color theme*/
+  --green-button-color: #174e3e;
+  --link-color: #333;
+  --link-menu-wallet-text: #fefefe;
+  --banner-choloclate-color: #ddaf94;
+  --brown-chocoloate-color: #4f4846;
+  --dark-mode-bkg-color: #011b13;
+  --light-mode-bkg-color: #e5e5e5;
+  --banner-lightmode-color: #ddaf94;
+  --banner-darkmode-color: #266150;
+  --transparent: transparent;
+  --features-lightmode-color: #183f33;
+  --features--glassmorphism-white-color: rgba(255, 255, 255, 0.3);
+  --features--glassmorphism-black-color: rgba(255, 255, 255, 0.05);
+  --features--glassmorphism-border: rgba(209, 213, 219, 0.3);
+  --features-liquidity-color: #0b0e0d;
+  --white: #ffffff;
+  --black: #131313;
+  --grey: #ebe8e8;
+  --navbar-darkmode-color: #266150;
+  --cards-darkmode-background: #0b0e0d;
+  --dark-mode-links-color: #ffffff;
+  --light-mode-links-color: #266150;
 }
