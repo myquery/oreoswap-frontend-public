@@ -10,7 +10,7 @@ const Features = ({ isClicked}) => {
     // }
     return (
         <section className={isClicked ? " features-darkmode" : "features-lightmode"}>
-
+            <div className="features__svg">
             <div className="features__wrapper">
                 <div className={isClicked ? "features__header-darkmode" : "features__header-lightmode"}>Our Exciting Features</div>
                 <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>This Exchange is a food-themed decentralized platform. The food-based Oreo token runs</div>
@@ -58,7 +58,7 @@ const Features = ({ isClicked}) => {
                 </div>
                 </div>
             </div>
-
+            </div>
         </section>
 
     )

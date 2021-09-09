@@ -53,11 +53,6 @@ class App extends Component {
 			    	everGrowingDarkBg = { everGrowingDarkBg }
 			    	everGrowingLightBg = { everGrowingLightBg }
 			    />
-				<OptimizedSection
-					isClicked = {this.state.isClicked}
-					optimizedLightBg = {optimizedLightBg}
-					optimizedDarkBg = {optimizedDarkBg}		
-				/>
 				
 				<Features className="curly-img"
 					isClicked = {this.state.isClicked}
