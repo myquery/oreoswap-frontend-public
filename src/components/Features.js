@@ -1,4 +1,5 @@
 import "../css/local/partials/components/_features.css";
+// import Curly from "../vectors/curly-dark.svg"
 const Features = ({ isClicked}) => {
     // hamburger button color
     // const hamLight = {
@@ -9,7 +10,7 @@ const Features = ({ isClicked}) => {
     // }
     return (
         <section className={isClicked ? " features-darkmode" : "features-lightmode"}>
-
+            <div className="features__svg">
             <div className="features__wrapper">
                 <div className={isClicked ? "features__header-darkmode" : "features__header-lightmode"}>Our Exciting Features</div>
                 <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>This Exchange is a food-themed decentralized platform. The food-based Oreo token runs</div>
@@ -19,7 +20,9 @@ const Features = ({ isClicked}) => {
                 <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>exchange platform offers significant functionalities like staking, farming, swapping and</div>
                 <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>Liquidity pools. Other features like the Lottery system, NFT market place and P2P will be</div>
                 <div className={isClicked ? "features__header__lasttext-darkmode" : "features__header__lasttext-lightmode"}>added at a later date.</div>
+               <div className="features__display__container">
                 <div className="features__display">
+   
                     <div className={isClicked ? "features__display--liquidity-darkmode" : "features__display--liquidity-lightmode"}>
                         <div className={isClicked ? "features__display--liquidity--wrapper-darkmode" : "features__display--liquidity--wrapper-lightmode"}>
                             <img src="img/Liquidity.png" alt="Liquidity" className="liquidity-img"/>
@@ -53,8 +56,9 @@ const Features = ({ isClicked}) => {
                         <div className="features__display--portfolio--text">Improve Portfolio</div>
                     </div>
                 </div>
+                </div>
             </div>
-
+            </div>
         </section>
 
     )

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./App.css";
+
 // components
 import Header from "./components/Header";
 import Banner from "./components/Banner";
@@ -52,12 +53,8 @@ class App extends Component {
 			    	everGrowingDarkBg = { everGrowingDarkBg }
 			    	everGrowingLightBg = { everGrowingLightBg }
 			    />
-				<OptimizedSection
-					isClicked = {this.state.isClicked}
-					optimizedLightBg = {optimizedLightBg}
-					optimizedDarkBg = {optimizedDarkBg}		
-				/>
-				<Features
+				
+				<Features className="curly-img"
 					isClicked = {this.state.isClicked}
 				/>
 			    <Newsletter 

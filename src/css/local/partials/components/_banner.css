@@ -1,10 +1,11 @@
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
+
 }
 
 .hero {
-	width: 70%;
+	width: 100%;
 	margin: 70px auto;
 	font-size: 36px;
 	font-family: var(--roboto-font);
@@ -18,6 +19,8 @@
 .topHeading {
 	overflow: hidden;
 	margin-top: 20px;
+	font-size: 38px;
+	
 }
 
 /* .heroSubHeading { */
@@ -37,7 +40,8 @@
 	font-style: normal;
 	line-height: 21.09px;
 	text-align: center;
-	/* margin-bottom: 70px; */
+	margin-bottom: 25px;
+	margin-top: 25px;
 }
 
 .buttons {
@@ -48,6 +52,9 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 0px;
+	/* height: -1px; */
+	
 }
 
 .btn {
@@ -56,6 +63,7 @@
 	border-radius: 25px;
 	margin: 15px 0px;
 	width: 150px;
+	height: 45px;
 }
 
 .smallBtn {
@@ -66,7 +74,15 @@
 .largeBtn {
 	width: 200px;
 }
-
+   /* .eclipse {
+	position: absolute;
+	width: 884px;
+	height: 784px;
+	left: -284px;
+	top: -334px;
+	border: 30px solid rgba(221, 175, 148, 0.06);
+     border-radius: 50%; 
+	 } */
 @media (min-width: 62em) {
 	.topHeading{
 		font-size: 64px;
@@ -83,16 +99,17 @@
 		font-size: 24px;
 		overflow: hidden;
 		line-height: 28px;
-		margin-top: 42px;
+		margin-top: 35px;
 	}
 	.buttons {
 		display: flex;
 		flex-direction: row;
-		margin: 30px auto;
+		margin: 38px auto;
 		
 	}
 
 	.btn {
 		margin: 0px 15px;
 	}
+
 }
