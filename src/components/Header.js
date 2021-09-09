@@ -73,7 +73,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
             <div className="wrapper">
                 <ul className="mobilenav list-unstyled">
                     <li className={toggleNavbar ? 'hide-visibility': 'd-block list-unstyled'}>
-                        <a href=""><img src="img/oreoswap-mobile-logo.png"  alt="company logo" className="logo mr-auto" id="logo"/></a>
+                        <a href=""><img src={isClicked ? "img/oreoswap-mobile-white-logo.png" : "img/oreoswap-mobile-brown-logo.png"}  alt="Oreoswap logo" className="logo mr-auto" id="logo"/></a>
                     </li>
                      <li  className={toggleNavbar ? "hide-visibility" : " ml-auto"}>
                         <a href="#" onClick={toggleMode} className="m-auto">
