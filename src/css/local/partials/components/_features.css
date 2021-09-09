@@ -8,7 +8,7 @@
 
     .features__wrapper{
         margin: 0rem 2.5rem 4.5rem 2.5rem;
-        max-width: 920px;
+        max-width: 800px;
           
     }
 
@@ -302,7 +302,7 @@
 
     .features__wrapper{
       margin: 0rem auto 3.5rem auto;
-      max-width: 920px;
+      max-width: 800px;
         
     }
 
@@ -329,19 +329,59 @@
       margin-top: 1rem;
       line-height: 1.7;
     }
+
+    .features__display--liquidity-lightmode{
+      margin: 0 auto 2.6rem auto;
+    }
+
+    .features__display--liquidity-darkmode{
+      margin: 0 auto 2.6rem auto;
+    }
+
+    .features__display--transaction-lightmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--transaction-darkmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--payment-lightmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--payment-darkmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--staking-lightmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--staking-darkmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--portfolio-lightmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--portfolio-darkmode{
+      margin: 0 auto 2.6rem auto;
+    }
   }
 
   @media all and (min-width: 1024px){
 
     .features__wrapper{
       margin: 0rem auto 3.5rem auto;
-      max-width: 920px;    
+      max-width: 800px;    
     }
 
     .features__display{
       display: flex;
       flex-wrap: wrap;
     }
+
+    .features__display:nth-child(1){
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 300px;
+    }
+
     .features__header-darkmode{
       display: flex;
       justify-content: center;
@@ -360,9 +400,42 @@
       margin-top: 1rem;
       line-height: 1.7;
     }
+
+    .features__display--liquidity-lightmode{
+      margin: 0 auto 3.1rem auto;
+    }
+
+    .features__display--liquidity-darkmode{
+      margin: 0 auto 3.1rem auto;
+    }
+
+    .features__display--transaction-lightmode{
+      margin: 0 auto 3.1rem auto;
+    }
+    .features__display--transaction-darkmode{
+      margin: 0 auto 3.1rem auto;
+    }
+    .features__display--payment-lightmode{
+      margin: 0 auto 3.1rem auto;
+    }
+    .features__display--payment-darkmode{
+      margin: 0 auto 3.1rem auto;
+    }
+    .features__display--staking-lightmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--staking-darkmode{
+      margin: 0 auto 2.6rem auto;
+    }
+    .features__display--portfolio-lightmode{
+      margin: 0 auto 2.6rem 0rem;
+    }
+    .features__display--portfolio-darkmode{
+      margin: 0 auto 2.6rem 0rem;
+    }
   }
 
-  @media all and (min-width: 1440px){
+  /* @media all and (min-width: 1440px){
 
     .features__wrapper{
       margin: 0rem auto 4rem auto;
@@ -373,6 +446,11 @@
       display: flex;
       flex-wrap: wrap;
     }
+
+    .features__display:last-child{
+      margin-bottom: 4rem;
+    }
+
     .features__header-darkmode{
       display: flex;
       justify-content: center;
@@ -391,5 +469,5 @@
       margin-top: 1rem;
       line-height: 1.7;
     }
-  }
+  } */
   

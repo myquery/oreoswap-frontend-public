@@ -1,9 +1,9 @@
 import "../css/local/partials/components/_statistic-section.css"
-const StatisticSection = () => {
+const StatisticSection = ({ isClicked}) => {
     return (
         <section className="stats text-center">
             
-			<div className="stat">
+			<div className={isClicked ? " stat-darkmode" : "stat-lightmode"}>
 					<div className="counter">
 						<p className="count">$248</p>
 						<small className="countName">All time volume</small>
