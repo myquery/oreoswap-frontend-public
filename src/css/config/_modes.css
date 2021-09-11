@@ -21,7 +21,7 @@
 }
 
 .lightmode .btns {
-	border: 1.8px solid var(--black);
+	border: 2px solid var(--black);
 }
 
 .darkmode{
@@ -43,7 +43,7 @@
 }
 
 .darkmode .btns {
-	border: 1.8px solid var(--white);
+	border: 2px solid var(--white);
 }
 .navbar-darkmode, .footer-darkmode{
   background: var(--navbar-darkmode-color);
