@@ -63,7 +63,8 @@
 	border-radius: 25px;
 	margin: 15px 0px;
 	width: 150px;
-	height: 45px;
+	height: 40px;
+	text-align: center;
 }
 
 .smallBtn {
