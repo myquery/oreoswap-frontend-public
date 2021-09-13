@@ -100,9 +100,10 @@
 	
 }
 
-.footer-darkmode {
+.footer-darkmode   {
 	background-color: var( --dark-mode-bkg-color);
 	color: var(--white);
+	
 }
 .cards-darkmode{
 	background: var(--cards-darkmode-background);
@@ -120,3 +121,6 @@
 	background: var(--green-button-color);
 }
 
+.darkmode .footer__search input[type=email]:focus {
+    color:white;
+}
