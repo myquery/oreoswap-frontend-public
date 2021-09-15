@@ -8,11 +8,9 @@ import StatisticSection from "./components/StatisticSection"
 import Body from "./components/Body"
 import OptimizedSection from "./components/OPtimizedSection"
 import Features from "./components/Features"
-import Newsletter from "./components/Newletter"
+import Community from "./components/Community"
 import Footer from "./components/Footer"
 // vectors
-import newsletterDarkBg from "./vectors/newsletter-vector-dark.svg"
-import newsletterLightBg from "./vectors/newsletter-vector-light.svg"
 import everGrowingDarkBg from "./vectors/ever-growing-vector-dark.svg"
 import everGrowingLightBg from "./vectors/ever-growing-vector-light.svg"
 import optimizedLightBg from "./vectors/optimized-vector-light.svg"
@@ -57,10 +55,8 @@ class App extends Component {
 				<Features className="curly-img"
 					isClicked = {this.state.isClicked}
 				/>
-			    <Newsletter 
+			    <Community 
 			    	isClicked = {this.state.isClicked}
-			    	newsletterLightBg = { newsletterLightBg } 
-			    	newsletterDarkBg= { newsletterDarkBg }
 			    />
 			    <Footer
 			    	isClicked = {this.state.isClicked}

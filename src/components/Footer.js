@@ -1,6 +1,20 @@
 import "../css/local/partials/components/_footer.css"
 
-
+// const Footer = ({isClicked}) => {
+// 	return(
+// 		<footer className={isClicked ? "footer-darkmode" : "footer-lightmode"}>
+// 			<nav className="wrapper">	
+// 				<ul className="footer-nav list-unstyled d-flex">
+// 					<li className="m-0">&copy; 2021 OreoSwap</li>
+// 					<li className="ml-auto"><a href="">About</a></li>
+// 					<li><a href="">Disclaimer</a></li>
+// 					<li><a href="">Trademark</a></li>
+// 					<li><a href="">Brand</a></li>
+// 				</ul>
+// 			</nav>
+// 		</footer>
+// 	)
+// }
 
 function Footer() {
 	return (
@@ -12,10 +26,10 @@ function Footer() {
                 <p className="footer__rightHeading">OreoSwap directly in your inbox</p>
                 <p className="footer__rightSubHeading">Get weekly updates about OreoSwap before anyone</p>
 
-                <form className="footer__search">
-                    <input type="email" placeholder="Enter your Email Address" className="searchBar"  />
-                    <button className="footer__btn" type="submit" >Subscribe</button>
-                </form>
+                <div className="footer__search">
+                    <input className="search" type="text" placeholder="Enter your Email Address" />
+                    <button className="footer__btn">Subscribe</button>
+                </div>
             </div>
 
 			<div className="footer__left">

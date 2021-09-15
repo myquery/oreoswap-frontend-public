@@ -44,7 +44,7 @@
 	margin-top: 40px;
 }
 
-.searchBar {
+.search {
 	width: 50%;
 	height: 40px;
 	outline: none;
@@ -132,7 +132,7 @@
 		display: flex;
 	}
 
-	.searchBar {
+	.search {
 		width: 70%;
 		height: 45px;
 		background: transparent;
@@ -142,4 +142,4 @@
 	.footer__btn {
 		padding: 10px 25px;
 	}
-}   
+}
