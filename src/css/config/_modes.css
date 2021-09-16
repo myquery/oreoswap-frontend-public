@@ -97,12 +97,15 @@
 .footer-lightmode{
 	background: var(--grey);
 	
-	
 }
 
 .footer-darkmode {
 	background-color: var( --dark-mode-bkg-color);
 	color: var(--white);
+}
+
+.darkmode .footer__search input[type=email]:focus{
+	color: var(--white)
 }
 .cards-darkmode{
 	background: var(--cards-darkmode-background);

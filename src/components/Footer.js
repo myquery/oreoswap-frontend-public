@@ -26,14 +26,14 @@ function Footer() {
                 <p className="footer__rightHeading">OreoSwap directly in your inbox</p>
                 <p className="footer__rightSubHeading">Get weekly updates about OreoSwap before anyone</p>
 
-                <div className="footer__search">
-                    <input className="search" type="text" placeholder="Enter your Email Address" />
-                    <button className="footer__btn">Subscribe</button>
-                </div>
+                <form className="footer__search">
+                    <input className="searchBar" type="email" placeholder="Enter your Email Address" />
+                    <button className="footer__btn" type="submit">Subscribe</button>
+                </form>
             </div>
 
 			<div className="footer__left">
-                	<p className="footer__leftHeading">We do apprecite your feedback</p>
+                	<p className="footer__leftHeading">We do appreciate your feedback</p>
                 	<p className="footer__leftSubHeading">hello@oreoswap.com</p>
             </div>
         </div>
