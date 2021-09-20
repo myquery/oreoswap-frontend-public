@@ -1,3 +1,15 @@
+.wrapper {
+
+    width: 80%;
+
+    margin: 0 auto;
+
+ 
+
+}
+
+
+
 .footer {
 
     position: relative;
@@ -8,9 +20,9 @@
 
     width: 80%;
 
-    margin: 0px auto;
+    margin: 0rem auto;
 
-    margin-top: 120px;
+    margin-top: 7.5rem;
 
 }
 
@@ -36,11 +48,11 @@
 
     width: 80%;
 
-    height: 1px;
+    height: 0.062rem;
 
     position: absolute;
 
-    top: 100px;
+    top: 6.25rem;
 
     left: 50%;
 
@@ -54,11 +66,11 @@
 
 .footer__rightHeading{
 
-    font-size: 20px;
+    font-size: 1.25rem;
 
     font-weight: 500;
 
-    line-height: 23.44px;
+    line-height: 1.47rem;
 
     font-family: var(--roboto-font);
 
@@ -70,13 +82,13 @@
 
 .footer__rightSubHeading {
 
-    font-size: 18px;
+    font-size: 1.13rem;
 
     font-family: var(--roboto-font);
 
     font-weight: 400;
 
-    line-height: 21.09px;
+    line-height: 1.32rem;
 
 }
 
@@ -84,7 +96,7 @@
 
 .footer__search {
 
-    margin-top: 40px;
+    margin-top: 2.5rem;
 
 }
 
@@ -92,15 +104,15 @@
 
 input.searchBar {
 
-    width: 80%;
+    width: 50%;
 
-    height: 40px;
+    height: 2.5rem;
 
     outline: none;
 
     background: transparent;
 
-    border: 1px solid var(--white);
+    border: 0.062rem solid var(--white);
 
 }
 
@@ -110,7 +122,7 @@ input.searchBar {
 
     background-color: var(--green-button-color);
 
-    padding: 10px 40px;
+    padding: 0.63rem 2.5rem;
 
     color: var(--white);
 
@@ -118,13 +130,13 @@ input.searchBar {
 
     border: none;
 
-    font-size: 16px;
+    font-size: 1rem;
 
     font-family: var(--roboto-font);
 
     font-weight: 500;
 
-    margin-bottom: 50px;
+    margin-bottom: 3.13rem;
 
 }
 
@@ -134,11 +146,11 @@ input.searchBar {
 
     font-family: var(--roboto-font);
 
-    font-size: 18px;
+    font-size: 1.13rem;
 
     font-weight: 400;
 
-    line-height: 25.77px;
+    line-height: 1.5rem;
 
 }
 
@@ -146,7 +158,7 @@ input.searchBar {
 
 .footer__leftSubHeading {
 
-    font-size: 18px;
+    font-size: 1.3rem;
 
     font-style: normal;
 
@@ -154,7 +166,7 @@ input.searchBar {
 
     font-weight: 700;
 
-    line-height: 26.77px;
+    line-height: 1.5rem;
 
  
 
@@ -180,15 +192,15 @@ input.searchBar {
 
     
 
-    font-size: 16px;
+    font-size: 1rem;
 
     font-family: (--roboto-font);
 
     font-style: normal;
 
-    line-height: 22.91px;
+    line-height: 1.43rem;
 
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
 
 }
 
@@ -198,7 +210,7 @@ input.searchBar {
 
     display: flex;
 
-    margin: 20px 0px;
+    margin: 1.3rem 0rem;
 
 }
 
@@ -208,9 +220,9 @@ input.searchBar {
 
  
 
-    margin-right: 35px;
+    margin-right: 2.2rem;
 
-    font-style: 18px;
+    font-style: 1.3rem;
 
     font-style: normal;
 
@@ -219,7 +231,7 @@ input.searchBar {
 }
 
  
-/* laptop 1632px */
+
 @media (min-width: 62em) {
 
     .footer__main {
@@ -266,11 +278,11 @@ input.searchBar {
 
  
 
-    input.searchBar {
+    .searchBar {
 
-        width: 100%;
+        width: 70%;
 
-        height: 44px;
+        height: 2.8rem;
 
         background: transparent;
 
@@ -280,9 +292,9 @@ input.searchBar {
 
  
 
-    button.footer__btn {
+    .footer__btn {
 
-        padding: 10px 18px;
+        padding: 0.63 1.56rem;
 
     }
 
@@ -291,13 +303,13 @@ input.searchBar {
 
 
 
-/* for more mobile responsiviness below codes! */
+/* workdown */
 
  
 
 /* small mobile */
 
-@media all and  (min-width: 0px){
+@media all and  (min-width: 0rem){
 
     
 
@@ -313,12 +325,11 @@ input.searchBar {
 
     input.searchBar{
 
-        width: 200px;
+        width: 11.6rem;
 
-        padding: 14px 10px;
+        padding: 0.49rem 0.1rem;
 
-        font-size: 13px;
-
+        font-size: 0.87rem;
 
     }
 
@@ -326,13 +337,13 @@ input.searchBar {
 
     button.footer__btn {
 
-        width: 108px;
+        width: 5.6rem;
 
-        padding: 11px 4px;
+        padding: 0.50rem 0.05rem;
 
-        font-size: 13px;
+        color: var(--white);
 
-        margin-bottom: 50px;
+        font-size: 1.004rem;
 
     }
 
@@ -342,7 +353,7 @@ input.searchBar {
 
 /* medium mobile */
 
-@media all and  (min-width: 375px){
+@media all and  (min-width: 23.442rem){
 
     form.footer__search  {
 
@@ -354,54 +365,13 @@ input.searchBar {
 
     input.searchBar{
 
-        width: 218px;
+        width: 14.8rem;
 
-        padding: 20.7px 10px;
+        padding: 1.1rem 0.83rem;
 
-        font-size: 15px;
+        font-size: 1.075rem;
 
-
-    }
-
- 
-
-    button.footer__btn {
-        width: 100px;
-
-        padding: 11px 14px;
-
-        margin-bottom: 50px;
-
-        color: var(--white);
-
-        font-size: 15px;
-
-    }
-
-}
-
- 
-
-/* large mobile */
-
-@media all and (min-width: 420px){
-
-    form.footer__search  {
-
-        display: flex;
-
-    }
-
- 
-
-    input.searchBar{
-
-        width: 210px;
-
-        padding: 20.7px 10px;
-
-        font-size: 15px;
-
+        font-family: var(--roboto-font);
 
     }
 
@@ -409,11 +379,13 @@ input.searchBar {
 
     button.footer__btn {
 
-        padding: 9.5px 15px;
+        width: 5.6rem;
+
+        padding: 0.50rem 0.5rem;
 
         color: var(--white);
 
-        font-size: 16px;
+        font-size: 1.023rem;
 
     }
 
@@ -421,7 +393,7 @@ input.searchBar {
 
 /* tablet */
 
-@media all and (min-width: 768px){
+@media all and (min-width: 48rem){
 
     form.footer__search  {
 
@@ -433,13 +405,11 @@ input.searchBar {
 
     input.searchBar{
 
-        width: 226px;
+        width: 16.5rem;
 
-        padding: 13.5px 10px;
+        padding: 1.1rem 0.63rem;
 
-        font-size: 15px;
-
-        font-family: var(--roboto-font);
+        font-size: 1.04rem;
 
     }
 
@@ -447,63 +417,13 @@ input.searchBar {
 
     button.footer__btn {
 
-        width: 109px;
+        width: 6.78rem;
 
-        padding: 8px 20px;
-
-        color: var(--white);
-
-        font-size: 16px;
-
-
-    }
-
-}
-
- 
-
-/* laptop */
-
-@media all and (min-width: 1024px){
-
-    form.footer__search  {
-
-        display: flex;
-
-    }
-
- 
-
-    input.searchBar{
-
-        width: 226px;
-
-        padding: 13.5px 10px;
-
-        font-size: 15px;
-
-    }
-
- 
-
-    button.footer__btn {
-
-        width: 109px;
-
-        padding: 8px 20px;
-
-        margin-bottom: 50px;
+        padding: 0.50rem 0.2rem;
 
         color: var(--white);
 
-        outline: none;
-
-        border: none;
-
-        font-size: 16px;
-
-        font-family: var(--roboto-font);
-
+        font-size: 1.053rem;
 
     }
 
@@ -525,15 +445,11 @@ input.searchBar {
 
     input.searchBar{
 
-        width: 208px;
+        width: 17.8rem;
 
-        padding: 12px 20px;
+        padding: 1.1rem 0.63rem;
 
-        font-size: 16px;
-
-        font-family: var(--roboto-font);
-
-        font-weight: 300;
+        font-size: 1.06rem;
 
     }
 
@@ -541,26 +457,15 @@ input.searchBar {
 
     button.footer__btn {
 
-        width: 108px;
+        width: 6.87rem;
 
-        padding: 9.5px 20px;
-
-        margin-bottom: 50px;
+        padding: 0.50rem 0.2rem;
 
         color: var(--white);
 
-        outline: none;
-
-        border: none;
-
-        font-size: 17px;
-
-        font-family: var(--roboto-font);
-
-        font-weight: 300;
+        font-size: 1.053rem;
 
     }
-
 
 }
 
@@ -570,48 +475,6 @@ input.searchBar {
 
 @media all and  (min-width: 2550px){
 
-    form.footer__search  {
-
-        display: flex;
-
-    }
-
- 
-
-    input.searchBar{
-
-        width: 226px;
-
-        padding: 12px 22px;
-
-        font-size: 16px;
-
-        font-family: var(--roboto-font);
-
-        font-weight: 300;
-
-    }
-
- 
-
-    button.footer__btn {
-
-        width: 108px;
-
-        padding: 9.5px 20px;
-
-        margin-bottom: 50px;
-
-        color: var(--white);
-
-
-        font-size: 17px;
-
-        font-family: var(--roboto-font);
-
-        font-weight: 300;
-
-    }
-
+    
 
 }
