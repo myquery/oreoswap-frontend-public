@@ -1,116 +1,254 @@
 .wrapper {
-	width: 80%;
-	margin: 0 auto;
+
+    width: 80%;
+
+    margin: 0 auto;
+
+ 
 
 }
+
+ 
 
 .hero {
-	width: 100%;
-	margin: 70px auto;
-	font-size: 36px;
-	font-family: var(--roboto-font);
-	font-style: normal;
-	line-height: 42.19px;
-	text-align: center;
-	padding: 50px 0px;
-	/* margin-bottom: 10px; */
+
+    width: 100%;
+
+    margin: 4.37rem auto;
+
+    font-size: 2.25rem;
+
+    font-family: var(--roboto-font);
+
+    font-style: normal;
+
+    line-height: 2.6rem;
+
+    text-align: center;
+
+    padding: 3.125rem 0rem;
+
+    /* margin-bottom: 10px; */
+
 }
+
+ 
 
 .topHeading {
-	overflow: hidden;
-	margin-top: 20px;
-	font-size: 38px;
-	
+
+    overflow: hidden;
+
+    margin-top: 1.25rem;
+
+    font-size: 2.36rem;
+
+    
+
 }
+
+ 
 
 /* .heroSubHeading { */
-	/* width: 70%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 20px;
-	margin: 40px; */
+
+    /* width: 70%;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+
+    margin: 40px; */
+
 /* } */
 
+ 
 
 .subHeading {
-	font-size: 18px;
-	font-family: var(--roboto-font);
-	font-style: normal;
-	line-height: 21.09px;
-	text-align: center;
-	margin-bottom: 25px;
-	margin-top: 25px;
+
+    font-size: 1.12rem;
+
+    font-family: var(--roboto-font);
+
+    font-style: normal;
+
+    line-height: 1.318rem;
+
+    text-align: center;
+
+    margin-bottom: 1.56rem;
+
+    margin-top: 1.56rem;
+
+    overflow: hidden;
+
 }
+
+ 
 
 .buttons {
-	/* max-width: 80%;
-	margin: auto; */
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 0px;
-	/* height: -1px; */
-	
+
+    /* max-width: 80%;
+
+    margin: auto; */
+
+    font-size: 10rem;
+
+    
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 0rem;
+
+    /* height: -1px; */
+
+    
+
 }
+
+ 
 
 .btn {
-	display: block;
-	border: 1px solid var(--white);
-	border-radius: 25px;
-	margin: 15px 0px;
-	width: 150px;
-	height: 40px;
-	text-align: center;
+
+    display: block;
+
+    border: 0.063 solid var(--white);
+
+    border-radius: 1.56rem;
+
+    margin: 0.9rem 0rem;
+
+    width: 9.45rem;
+
+    height: 2.5rem;
+
+    text-align: center;
+
+    overflow: hidden;
+
 }
 
-.smallBtn {
-	background-color: var(--green-button-color);
-	border: none;
-	outline: none;
+ 
+
+a.smallBtn {
+
+    background-color: var(--green-button-color);
+
+    border: none;
+
+    outline: none;
+
+    font-size: 1.2rem;
+
+ 
+
 }
-.largeBtn {
-	width: 200px;
+
+a.largeBtn {
+
+    width: 12.5rem;
+
+    font-size: 1.0rem;
+	/* text-align: center; */
+
+ 
+
 }
+
+ 
+
+a.mediumBtn{
+
+    font-size: 1.2rem;
+
+}
+
+ 
+
    /* .eclipse {
-	position: absolute;
-	width: 884px;
-	height: 784px;
-	left: -284px;
-	top: -334px;
-	border: 30px solid rgba(221, 175, 148, 0.06);
-     border-radius: 50%; 
-	 } */
-@media (min-width: 62em) {
-	.topHeading{
-		font-size: 64px;
-		font-family: var(--roboto-font);
-		font-style: normal;
-		font-weight: 400;
-		line-height: 75px;
-		width: 100%;
-		/* text-align: center; */
-	}
-	.subHeading {
-		width: 65%;
-		margin: 0 auto;
-		font-size: 24px;
-		overflow: hidden;
-		line-height: 28px;
-		margin-top: 35px;
-	}
-	.buttons {
-		display: flex;
-		flex-direction: row;
-		margin: 38px auto;
-		
-	}
 
-	.btn {
-		margin: 0px 15px;
-	}
+    position: absolute;
+
+    width: 884px;
+
+    height: 784px;
+
+    left: -284px;
+
+    top: -334px;
+
+    border: 30px solid rgba(221, 175, 148, 0.06);
+
+     border-radius: 50%; 
+
+     } */
+
+@media (min-width: 62em) {
+
+    .topHeading{
+
+        font-size: 4rem;
+
+        font-family: var(--roboto-font);
+
+        font-style: normal;
+
+        font-weight: 400;
+
+        line-height: 4.69rem;
+
+        width: 100%;
+
+        /* text-align: center; */
+
+    }
+
+    .subHeading {
+
+        width: 65%;
+
+        margin: 0 auto;
+
+        font-size: 1.54rem;
+
+        overflow: hidden;
+
+        line-height: 1.6rem;
+
+        margin-top: 2.2rem;
+
+    }
+
+    .buttons {
+
+        display: flex;
+
+        flex-direction: row;
+
+        margin: 2.38rem auto;
+
+        
+
+    }
+
+ 
+
+    .btn {
+
+        margin: 0rem 1.93rem;
+
+    }
+
+ 
 
 }
