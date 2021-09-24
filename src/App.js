@@ -6,15 +6,12 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import StatisticSection from "./components/StatisticSection"
 import Body from "./components/Body"
-import OptimizedSection from "./components/OPtimizedSection"
 import Features from "./components/Features"
 import Community from "./components/Community"
 import Footer from "./components/Footer"
 // vectors
 import everGrowingDarkBg from "./vectors/ever-growing-vector-dark.svg"
 import everGrowingLightBg from "./vectors/ever-growing-vector-light.svg"
-import optimizedLightBg from "./vectors/optimized-vector-light.svg"
-import optimizedDarkBg from "./vectors/optimized-vector-dark.svg"
 
 class App extends Component {
 	state = {
