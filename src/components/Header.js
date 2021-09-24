@@ -117,19 +117,19 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="/"><img src={isClicked ? "img/oreoswap-white-logo.png" :"img/oreoswap-brown-logo.png"}  alt="company logo" className="logo mr-auto"/></a>
                             </li>
                             <li className="ml-auto my-auto">
-                                <a href="#">Team</a>
+                                <a href="https://oreoswap.com/team" target="_newtab">Team</a>
                             </li>
                             <li className="my-auto">
-                                <a href="#">Info</a>
+                                <a href="https://oreoswap.com/info" target="_newtab">Info</a>
                             </li>
                             <li className="my-auto">
-                                <a href="#">Contact</a>
+                                <a href="https://oreoswap.com/contact" target="_newtab">Contact</a>
                             </li>
                             <li className="my-auto">
-                                <a href="#">Github</a>
+                                <a href="https://github.com/oreoswap" target="_newtab">Github</a>
                             </li>
                             <li className="my-auto">
-                                <a href="#">Blog</a>
+                                <a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3" target="_newtab">Blog</a>
                             </li>
                            <li  className="my-auto">
                                 <a href="#" onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>

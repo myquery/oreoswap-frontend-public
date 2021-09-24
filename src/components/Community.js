@@ -12,25 +12,26 @@ const Community = ({ isClicked}) => {
 							<div className="community_icons-img">
 								<img src={isClicked ? "/img/community_icons/facebook-dark.png" : "/img/community_icons/facebook.png"}/>
 							</div>
-							<p>Drop a message in our <a href="https://">facebook community</a>.</p>
+							<p>Drop a message in our <a href="https://fb.me/Oreoswap" target="_newtab">facebook community</a>.</p>
 						</div>
 						<div className={isClicked ? "community_icons-item community_icons-item-darkmode" : "community_icons-item community_icons-item-lightmode"}>
 							<div className="community_icons-img">
 								<img src={isClicked ? "/img/community_icons/twitter-dark.png" : "/img/community_icons/twitter.png"}/>
 							</div>
-							<p>Follow <a href="https://">@Oreoswap</a> for news and updates.</p>
+							<p>Follow <a href="https://twitter.com/HelloOreoswap?s=09" target="_newtab">@Oreoswap</a> for news and updates.</p>
 						</div>
 						<div className={isClicked ? "community_icons-item community_icons-item-darkmode" : "community_icons-item community_icons-item-lightmode"}>
 							<div className="community_icons-img">
 								<img src={isClicked ? "/img/community_icons/youtube-dark.png" : "/img/community_icons/youtube.png"}/>
 							</div>
-							<p>Stay update with our <a href="https://">Youtube channel</a></p>
+							<p>Stay update with our <a href="https://www.youtube.com/channel/UCydTsQygKaGUez63bSMDGMg
+								" target="_newtab">Youtube channel</a></p>
 						</div>
 						<div className={isClicked ? "community_icons-item community_icons-item-darkmode" : "community_icons-item community_icons-item-lightmode"}>
 							<div className="community_icons-img">
 								<img src={isClicked ? "/img/community_icons/instagram-dark.png" : "/img/community_icons/instagram.png"}/>
 							</div>
-							<p>Follow <a href="https://">@Oreoswap</a> on Instagram.</p>
+							<p>Follow <a href="https://Instagram.com/OreoSwap_Official" target="_newtab">@Oreoswap</a> on Instagram.</p>
 						</div>
 						
 					</div>
@@ -40,13 +41,13 @@ const Community = ({ isClicked}) => {
 							<div className="community_icons-img">
 								<img src={isClicked ? "/img/community_icons/reddit-dark.png" : "/img/community_icons/reddit.png"}/>
 							</div>
-							<p>Send us  a message in our <a href="https://">Reddit community</a>.</p>
+							<p>Send us  a message in our <a href="https://www.reddit.com/user/OreoSwap-Official/" target="_newtab">Reddit community</a>.</p>
 						</div>
 						<div className={isClicked ? "community_icons-item community_icons-item-darkmode" : "community_icons-item community_icons-item-lightmode"}>
 							<div className="community_icons-img">
 								<img src={isClicked ? "/img/community_icons/telegram-dark.png" : "/img/community_icons/telegram2.png"}/>
 							</div>
-							<p>Send us a message in our <a href="https://">Telegram group</a>.</p>
+							<p>Send us a message in our <a href="https://t.me/OreoSwapOfficial" target="_newtab">Telegram group</a>.</p>
 						</div>
 					</div>
 					

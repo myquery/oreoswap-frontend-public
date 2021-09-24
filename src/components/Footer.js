@@ -42,11 +42,11 @@ function Footer() {
             <a className="footer__link link__left">&copy; 2021 OreoSwap</a>
 
             <ul className="footer__list">
-                <li className="footer_listItem"><a className="footer_link" href="">Team</a></li>
-                <li className="footer_listItem"><a className="footer_link" href="">Info</a></li>
-                <li className="footer_listItem"><a className="footer_link" href="">Services</a></li>
-                <li className="footer_listItem"><a className="footer_link" href="">Github</a></li>
-                <li className="footer_listItem"><a className="footer_link" href="">Blog</a></li>
+                <li className="footer_listItem"><a className="footer_link" href="https://oreoswap.com/team" target="_newtab">Team</a></li>
+                <li className="footer_listItem"><a className="footer_link" href="https://oreoswap.com/info" target="_newtab">Info</a></li>
+                <li className="footer_listItem"><a className="footer_link" href="https://oreoswap.com/services" target="_newtab">Services</a></li>
+                <li className="footer_listItem"><a className="footer_link" href="https://github.com/oreoswap" target="_newtab">Github</a></li>
+                <li className="footer_listItem"><a className="footer_link" href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3" target="_newtab">Blog</a></li>
             </ul>
         </div>
 		</div>
