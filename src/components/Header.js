@@ -37,10 +37,10 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                             <a href="#">Contact</a>
                         </li>
                         <li onClick={toggleNavbar}>
-                            <a href="#">Github</a>
+                            <a href="https://github.com/Oreoswap-BSC">Github</a>
                         </li>
                         <li onClick={toggleNavbar}>
-                            <a href="#">Blog</a>
+                            <a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3">Blog</a>
                         </li>
                         <li onClick={toggleNavbar}>
                             <button className="navbar-button">
@@ -56,7 +56,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="/"><img src="img/oreoswap-brown-logo.png"  alt="company logo" className="logo mr-auto"/></a>
                             </li>
                             <li className="ml-auto my-auto">
-                                <a href="#">Team</a>
+                                <a href="https://oreoswap.com/team">Team</a>
                             </li>
                             <li className="my-auto">
                                 <a href="#">Info</a>
@@ -65,10 +65,10 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="#">Contact</a>
                             </li>
                             <li className="my-auto">
-                                <a href="#">Github</a>
+                                <a href="https://github.com/Oreoswap-BSC">Github</a>
                             </li>
                             <li className="my-auto">
-                                <a href="#">Blog</a>
+                                <a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3">Blog</a>
                             </li>
                            <li  className="my-auto">
                                 <a href="#" onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>
