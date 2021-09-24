@@ -76,10 +76,10 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
             <div className="wrapper">
                 <ul className="mobilenav list-unstyled">
                     <li className={toggleNavbar ? 'hide-visibility': 'd-block list-unstyled'}>
-                        <a href=""><img src={isClicked ? "img/oreoswap-mobile-white-logo.png" : "img/oreoswap-mobile-brown-logo.png"}  alt="Oreoswap logo" className="logo mr-auto" id="logo"/></a>
+                        <a href="#"><img src={isClicked ? "img/oreoswap-white-logo.png" : "img/oreoswap-brown-logo.png"}  alt="Oreoswap logo" className="logo mr-auto" id="logo"/></a>
                     </li>
                      <li  className={toggleNavbar ? "hide-visibility" : " ml-auto"}>
-                        <a onClick={toggleMode} className="m-auto">
+                        <a href="javascript:void(0)" onClick={toggleMode} className="m-auto">
                               <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
                         </a>
                     </li>

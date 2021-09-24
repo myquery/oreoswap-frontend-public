@@ -1,3 +1,8 @@
+.bi{
+  cursor: pointer;
+}
+
+
 .moon-icon{
   color: var(--green-button-color);
   font-size: 1.4em;
@@ -28,7 +33,7 @@
 
 @media all and (min-width: 0px){
   .logo{
-    width: 30px;
+    width: 7rem;
   }
   .nav1 > ul{
     height: 100%;
