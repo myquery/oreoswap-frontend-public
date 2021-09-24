@@ -1,6 +1,6 @@
 import "../css/local/partials/components/_header.css";
 import { useRef } from 'react';
-import {NavLink} from "react-bootstrap"
+import { useAlert } from 'react-alert'
 
 
 
@@ -50,7 +50,10 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
     };
     
     
-
+    const alert = useAlert()
+    const showAlert = () => {
+        alert.show("Coming Soon!!!")
+    }
 
     // hamburger button color
     const hamLight = {
@@ -76,7 +79,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                         <a href=""><img src={isClicked ? "img/oreoswap-mobile-white-logo.png" : "img/oreoswap-mobile-brown-logo.png"}  alt="Oreoswap logo" className="logo mr-auto" id="logo"/></a>
                     </li>
                      <li  className={toggleNavbar ? "hide-visibility" : " ml-auto"}>
-                        <a href="#" onClick={toggleMode} className="m-auto">
+                        <a onClick={toggleMode} className="m-auto">
                               <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
                         </a>
                     </li>
@@ -105,7 +108,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                         </li>
                         <li onClick={toggleNavbar}>
                             <button className="navbar-button">
-                                <a href="#">Use Exchange</a>
+                                <a href="#" onClick={showAlert}>Use Exchange</a>
                             </button>
                         </li>
                     </ul>
@@ -132,13 +135,13 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3" target="_newtab">Blog</a>
                             </li>
                            <li  className="my-auto">
-                                <a href="#" onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>
+                                <a onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>
                                     <i className={isClicked ? "bi bi-sun-fill sun-icon m-0" :  "bi bi-moon-fill moon-icon m-0"}></i>
                                 </a>
                             </li>
                             <li  className="my-auto">
                                 <button className="navbar-button m-0">
-                                    <a href="#">Use Exchange</a>
+                                    <a href="#" onClick={showAlert}>Use Exchange</a>
                                 </button>
                             </li>
                         </ul>

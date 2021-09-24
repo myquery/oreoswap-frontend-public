@@ -1,8 +1,12 @@
-
-import "../css/local/partials/components/_banner.css"
+import { useAlert } from 'react-alert';
+import "../css/local/partials/components/_banner.css";
 // import {NavLink} from "react-router-dom"
 
 const Banner = () => {
+	const alert = useAlert()
+	const showAlert = () => {
+		alert.show("Coming Soon!!!")
+	}
 	return(
 		<section className="banner">
 			<div className="wrapper banner-container">
@@ -15,7 +19,7 @@ const Banner = () => {
 					</p>
 				</div>
 				<div className="buttons">
-					<a href="#" className="btn smallBtn" tygpe="button">Use Exchange</a>
+					<a href="#" className="btn smallBtn" tygpe="button" onClick={showAlert}>Use Exchange</a>
 					<a href="#" className="btn largeBtn btns" type="button">Documention</a>
 					<a href="#" className="btn mediumBtn btns" type="button">FAQs</a>
 				</div>

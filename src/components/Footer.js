@@ -26,9 +26,9 @@ function Footer() {
                 <p className="footer__rightHeading">OreoSwap directly in your inbox</p>
                 <p className="footer__rightSubHeading">Get weekly updates about OreoSwap before anyone</p>
 
-                <form className="footer__search">
-                    <input className="searchBar" type="email" placeholder="Enter your Email Address" />
-                    <button className="footer__btn" type="submit">Subscribe</button>
+                    <form className="footer__search" action="https://oreoswap.us5.list-manage.com/subscribe/post?u=d7d834e3192d7d315eba83959&amp;id=cfacde7321" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                        <input className="searchBar required" type="email" placeholder="Enter your Email Address" name="EMAIL" id="mce-EMAIL" />
+                    <button className="footer__btn" type="submit">Subscribe</button> 
                 </form>
             </div>
 
@@ -55,3 +55,5 @@ function Footer() {
 	)
 }
 export default Footer
+
+  
