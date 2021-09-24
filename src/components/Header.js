@@ -89,19 +89,19 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                 <nav className={toggleNavbar ? 'nav1' : 'hide-mobilenav'} style={isClicked ? {backgroundColor: sideBarBgClr.dark} : {backgroundColor: sideBarBgClr.light}}>
                     <ul className={toggleNavbar ? "d-flex list-unstyled m-0" : "d-none list-unstyled m-0"}>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-people-fill"></i><a href="#">Team</a>
+                            <i className="bi bi-people-fill"></i><a href="https://oreoswap.com/team" target="_newtab">Team</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-reception-4"></i><a href="#">Info</a>
+                            <i className="bi bi-reception-4"></i><a href="https://oreoswap.com/info" target="_newtab">Info</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-telephone-fill"></i><a href="#">Contact</a>
+                            <i className="bi bi-telephone-fill"></i><a href="https://oreoswap.com/contact" target="_newtab">Contact</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-github"></i><a href="#">Github</a>
+                            <i className="bi bi-github"></i><a href="https://github.com/oreoswap" target="_newtab">Github</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-journal-album"></i><a href="#">Blog</a>
+                            <i className="bi bi-journal-album"></i><a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3" target="_newtab">Blog</a>
                         </li>
                         <li onClick={toggleNavbar}>
                             <button className="navbar-button">
