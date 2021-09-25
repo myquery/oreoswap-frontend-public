@@ -112,7 +112,6 @@
 		background: var(--community--glassmorphism-black-color);
 		backdrop-filter: blur(16px) saturate(180%);
     	-webkit-backdrop-filter: blur(16px) saturate(180%);
-		border: 2px solid;
 		border-image-source: linear-gradient(98.77deg, rgba(255, 255, 255, 0.3) 12.46%, rgba(255, 255, 255, 0) 53.65%, rgba(255, 214, 221, 0) 71.91%, rgba(88, 88, 88, 0.5) 101.85%);
 	}
 
