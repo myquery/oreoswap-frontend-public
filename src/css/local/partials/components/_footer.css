@@ -478,3 +478,89 @@ input.searchBar {
     
 
 }
+
+
+/* medium mobile */
+@media all and  (min-width: 375px){
+    form.footer__search {
+
+        display: flex;
+
+        flex-direction: row;
+
+    }
+
+ 
+
+    input.searchBar{
+
+        width: 11.6rem;
+
+        padding: 0.49rem 0.1rem;
+
+        font-size: 0.87rem;
+
+    }
+
+ 
+
+    button.footer__btn {
+
+        width: 5.6rem;
+
+        padding: 0.50rem 0.05rem;
+
+        color: var(--white);
+
+        font-size: 1.004rem;
+
+    }
+
+ 
+
+}
+
+    
+
+
+/* large mobile */
+@media all and (min-width: 420px){
+
+    form.footer__search {
+
+        display: flex;
+
+        flex-direction: row;
+
+    }
+
+ 
+
+    input.searchBar{
+
+        width: 11.6rem;
+
+        padding: 0.49rem 0.1rem;
+
+        font-size: 0.87rem;
+
+    }
+
+ 
+
+    button.footer__btn {
+
+        width: 5.6rem;
+
+        padding: 0.50rem 0.05rem;
+
+        color: var(--white);
+
+        font-size: 1.004rem;
+
+    }
+
+ 
+
+}
+
