@@ -20,8 +20,8 @@ const Banner = () => {
 				</div>
 				<div className="buttons">
 					<a href="#" className="btn smallBtn" tygpe="button" onClick={showAlert}>Use Exchange</a>
-					<a href="#" className="btn largeBtn btns" type="button">Documentation</a>
-					<a href="#" className="btn mediumBtn btns" type="button">FAQs</a>
+					<a href="https://drive.google.com/file/d/15ic3RzlSWed6p-UdwxtbUiABNWgB8iRM/view?usp=sharing" target="_newtab" className="btn largeBtn btns" type="button">Documentation</a>
+					<a href="https://oreoswap.com/faqs" target="_newtab" className="btn mediumBtn btns" type="button">FAQs</a>
 				</div>
 			</div>
 			</div>
