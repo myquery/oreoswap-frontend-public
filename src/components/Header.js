@@ -92,13 +92,13 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                 <nav className={toggleNavbar ? 'nav1' : 'hide-mobilenav'} style={isClicked ? {backgroundColor: sideBarBgClr.dark} : {backgroundColor: sideBarBgClr.light}}>
                     <ul className={toggleNavbar ? "d-flex list-unstyled m-0" : "d-none list-unstyled m-0"}>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-people-fill"></i><a href="https://oreoswap.com/team" target="_newtab">Team</a>
+                            <i className="bi bi-people-fill"></i><a href="https://oreoswap.com/team" >Team</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-reception-4"></i><a href="https://oreoswap.com/info" target="_newtab">Info</a>
+                            <i className="bi bi-reception-4"></i><a href="https://oreoswap.com/info" >Info</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-telephone-fill"></i><a href="https://oreoswap.com/contact" target="_newtab">Contact</a>
+                            <i className="bi bi-telephone-fill"></i><a href="https://oreoswap.com/contact" >Contact</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
                             <i className="bi bi-github"></i><a href="https://github.com/oreoswap" target="_newtab">Github</a>
@@ -120,13 +120,13 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="/"><img src={isClicked ? "img/oreoswap-white-logo.png" :"img/oreoswap-brown-logo.png"}  alt="company logo" className="logo mr-auto"/></a>
                             </li>
                             <li className="ml-auto my-auto">
-                                <a href="https://oreoswap.com/team" target="_newtab">Team</a>
+                                <a href="https://oreoswap.com/team" >Team</a>
                             </li>
                             <li className="my-auto">
-                                <a href="https://oreoswap.com/info" target="_newtab">Info</a>
+                                <a href="https://oreoswap.com/info" >Info</a>
                             </li>
                             <li className="my-auto">
-                                <a href="https://oreoswap.com/contact" target="_newtab">Contact</a>
+                                <a href="https://oreoswap.com/contact" >Contact</a>
                             </li>
                             <li className="my-auto">
                                 <a href="https://github.com/oreoswap" target="_newtab">Github</a>
