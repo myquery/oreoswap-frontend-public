@@ -1,10 +1,19 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    font: var(--roboto-font);
+  }
+
 .stat-lightmode {
+    font-family: var(--roboto);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     padding: 1.2rem 0.3rem .3rem 0.7rem;
     width: 80%;
     margin-bottom: .2rem;
+    font-family: var(--roboto-font);
     backdrop-filter: blur(16px) saturate(180%);
       -webkit-backdrop-filter: blur(16px) saturate(180%);
       background-color: var(--features--glassmorphism-white-color);
@@ -15,11 +24,13 @@
 }
 
 .stat-darkmode {
+    font-family: var(--roboto);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     padding: 1.2rem 0.3rem .3rem 0.7rem;
     width: 80%;
+    font-family: var(--roboto-font);
     margin-bottom: .2rem;
     backdrop-filter: blur(16px) saturate(180%);
       -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -31,33 +42,38 @@
 }
 
 .counter {
+    font-family: var(--roboto);
     flex-basis: 50%;
     margin-bottom: 20px;
    
 }
 
 .counter:nth-child(1) {
+    font-family: var(--roboto);
     flex-basis: 50%;
     margin-bottom: 20px;
-   margin-right: 30px;
+    margin-right: 30px;
 }
 
 .counter:nth-child(2) {
+    font-family: var(--roboto);
     flex-basis: 50%;
     margin-bottom: 20px;
-   margin-right: 20px;
+    margin-right: 20px;
 }
 
 .counter:nth-child(3) {
+    font-family: var(--roboto);
     flex-basis: 50%;
     margin-bottom: 20px;
-   margin-right: 30px;
+    margin-right: 30px;
 }
 
 .counter:nth-child(4) {
+    font-family: var(--roboto);
     flex-basis: 50%;
     margin-bottom: 20px;
-   margin-right: 20px;
+    margin-right: 20px;
 }
 
 
@@ -70,6 +86,7 @@
 }
 
 .countName {
+    font-family: var(--roboto);
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
