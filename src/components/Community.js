@@ -25,7 +25,7 @@ const Community = ({ isClicked}) => {
 							<a href="https://www.youtube.com/channel/UCydTsQygKaGUez63bSMDGMg
 								" target="_newtab"><img src={isClicked ? "/img/community_icons/youtube-dark.png" : "/img/community_icons/youtube.png"}/></a>
 							</div>
-							<p>Stay update with our <a href="https://www.youtube.com/channel/UCydTsQygKaGUez63bSMDGMg
+							<p>Stay updated with our <a href="https://www.youtube.com/channel/UCydTsQygKaGUez63bSMDGMg
 								" target="_newtab">Youtube channel</a></p>
 						</div>
 						<div className={isClicked ? "community_icons-item community_icons-item-darkmode" : "community_icons-item community_icons-item-lightmode"}>
