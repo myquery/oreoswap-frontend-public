@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: var(--roboto-font);
 }
 
 @media all and (min-width: 0px) {
 
   .features__svg{
+    font-family: var(--roboto);
     background: url(../../../../vectors/curly-light.svg),
     url(../../../../vectors/curly-dark.svg);
   background-size: cover;
@@ -15,12 +17,18 @@
   }
 
   .features__wrapper {
+    font-family: var(--roboto);
     margin: 2rem 2.5rem 4.5rem 2.5rem;
     max-width: 80%;
 
   }
 
+  .features__display__container {
+    margin-top: 1.5rem;
+}
+
   .features__header-lightmode {
+    font-family: var(--roboto);
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -30,23 +38,28 @@
   }
 
   .features__header__text-lightmode {
+    font-family: var(--roboto);
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.7;
-    text-align: center;
+    display: contents;
+    /* text-align: center; */
     text-justify: inter-word;
   }
 
   .features__header__lasttext-lightmode {
+    font-family: var(--roboto);
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.7;
-    text-align: center;
+    display: contents;
+    /* text-align: center; */
     text-justify: inter-word;
     margin-bottom: 4.5rem;
   }
 
   .features__header-darkmode {
+    font-family: var(--roboto);
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -57,27 +70,33 @@
   }
 
   .features__header__text-darkmode {
+    font-family: var(--roboto);
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.7;
-    text-align: center;
+    display: contents;
+    /* text-align: center; */
     text-justify: inter-word;
   }
 
   .features__header__lasttext-darkmode {
+    font-family: var(--roboto);
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.7;
-    text-align: center;
+    display: contents;
+    /* text-align: center; */
     text-justify: inter-word;
     margin-bottom: 4.55rem;
   }
 
   .features__display {
+    font-family: var(--roboto);
     text-align: center;
   }
 
   .features__display--liquidity-lightmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -91,6 +110,7 @@
   }
 
   .features__display--liquidity--wrapper-lightmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -98,6 +118,7 @@
   }
 
   .features__display--liquidity-darkmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -111,6 +132,7 @@
   }
 
   .features__display--liquidity--wrapper-darkmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -118,11 +140,13 @@
   }
 
   .features__display--liquidity--text {
+    font-family: var(--roboto);
     font-size: 1.05rem;
     font-weight: 400;
   }
 
   .features__display--transaction-lightmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -136,6 +160,7 @@
   }
 
   .features__display--transaction--wrapper-lightmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -143,6 +168,7 @@
   }
 
   .features__display--transaction-darkmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -156,6 +182,7 @@
   }
 
   .features__display--transaction--wrapper-darkmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -163,13 +190,15 @@
   }
 
   .features__display--transaction--text {
+    font-family: var(--roboto);
     font-size: 1.05rem;
     font-weight: 400;
   }
 
   .features__display--payment-lightmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.9rem auto;
-    width: 14rem;
+    width: 15rem;
     height: 10rem;
     text-align: -webkit-center;
     padding: 1.3rem;
@@ -181,6 +210,7 @@
   }
 
   .features__display--payment--wrapper-lightmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -188,8 +218,9 @@
   }
 
   .features__display--payment-darkmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.9rem auto;
-    width: 14rem;
+    width: 15rem;
     height: 10rem;
     text-align: -webkit-center;
     padding: 1.3rem;
@@ -201,6 +232,7 @@
   }
 
   .features__display--payment--wrapper-darkmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -208,11 +240,13 @@
   }
 
   .features__display--payment--text {
+    font-family: var(--roboto);
     font-size: 1.05rem;
     font-weight: 400;
   }
 
   .features__display--staking-lightmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.2rem auto;
     width: 14rem;
     height: 10rem;
@@ -226,6 +260,7 @@
   }
 
   .features__display--staking--wrapper-lightmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -233,6 +268,7 @@
   }
 
   .features__display--staking-darkmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.2rem auto;
     width: 14rem;
     height: 10rem;
@@ -246,6 +282,7 @@
   }
 
   .features__display--staking--wrapper-darkmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -253,11 +290,13 @@
   }
 
   .features__display--staking--text {
+    font-family: var(--roboto);
     font-size: 1.05rem;
     font-weight: 400;
   }
 
   .features__display--portfolio-lightmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.2rem auto;
     width: 14rem;
     height: 10rem;
@@ -271,6 +310,7 @@
   }
 
   .features__display--portfolio--wrapper-lightmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -278,6 +318,7 @@
   }
 
   .features__display--portfolio-darkmode {
+    font-family: var(--roboto);
     margin: 0 auto 1.2rem auto;
     width: 14rem;
     height: 10rem;
@@ -291,6 +332,7 @@
   }
 
   .features__display--portfolio--wrapper-darkmode {
+    font-family: var(--roboto);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -298,6 +340,7 @@
   }
 
   .features__display--portfolio--text {
+    font-family: var(--roboto);
     font-size: 1.05rem;
     font-weight: 400;
   }
@@ -308,6 +351,7 @@
 @media all and (min-width: 768px) {
 
   .features__svg{
+    font-family: var(--roboto);
     background: url(../../../../vectors/curly-light.svg),
     url(../../../../vectors/curly-dark.svg);
   background-size: cover;
@@ -324,6 +368,10 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+.features__display__container {
+    margin-top: 2rem;
+}
 
   .features__header-darkmode {
     display: flex;
@@ -384,23 +432,15 @@
     margin: 2rem auto 3.7rem auto;  
     max-width: 80%; 
   }
-
-  /* .features__header-lightmode {
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 1.55rem;
-    margin-bottom: 1.2rem;
-    line-height: 1.7;
+/* 
+  .features__header-lightmode {
+    display: block;
+    text-align: center;
   }
 
   .features__header-darkmode {
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 1.55rem;
-    margin-bottom: 1.2rem;
-    line-height: 1.7;
+    display: block;
+    text-align: center;
   } */
   
   .features__header__text-lightmode {
@@ -409,6 +449,7 @@
     line-height: 1.7;
     text-align: center;
     text-justify: inter-word;
+    display: block;
   }
 
   .features__header__text-darkmode {
@@ -417,6 +458,7 @@
     line-height: 1.7;
     text-align: center;
     text-justify: inter-word;
+    display: block;
   }
 
   .features__header__lasttext-lightmode {
@@ -426,6 +468,7 @@
     text-align: center;
     text-justify: inter-word;
     margin-bottom: 4.5rem;
+    display: block;
   }
 
   .features__header__lasttext-darkmode {
@@ -435,6 +478,7 @@
     text-align: center;
     text-justify: inter-word;
     margin-bottom: 4.5rem;
+    display: block;
   }
 
   .features__header-darkmode{
@@ -445,6 +489,7 @@
     margin-bottom: 1.2rem;
     margin-top: 1rem;
     line-height: 1.7;
+    display: block;
   }
   .features__header-lightmode{
     display: flex;
@@ -454,6 +499,7 @@
     margin-bottom: 1.2rem;
     margin-top: 1rem;
     line-height: 1.7;
+    display: block;
   }
 }
 
