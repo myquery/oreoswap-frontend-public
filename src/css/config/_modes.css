@@ -1,13 +1,14 @@
 * a:hover{
 	filter: brightness(90%);
 }
-.lightmode, .cards-lightmode{
+.lightmode{
 	color: var(--black);
 	background: var(--grey);
 	transition: 0.2s ease;
+	position: relative;
 }
 .lightmode a{
-	color: var(--light-mode-links-color);
+	color: var(--text-black);
 	text-decoration: none;
 }
 
@@ -20,7 +21,9 @@
 	color: var(--black);
 }
 
-.lightmode .btns {
+.lightmode .buttons button{
+    border-radius: 18px;
+    height: 50px;
 	border: 2px solid var(--black);
 }
 
@@ -28,6 +31,7 @@
 	color: var(--white);
 	background: var( --dark-mode-bkg-color);
 	transition: 0.2s ease;
+	position: relative;
 }
 .darkmode a{
 	color: var(--white);
@@ -42,7 +46,9 @@
 	color: var(--white);
 }
 
-.darkmode .btns {
+.darkmode .buttons button{
+    border-radius: 18px;
+    height: 50px;
 	border: 2px solid var(--white);
 }
 .navbar-darkmode, .footer-darkmode{
@@ -75,25 +81,9 @@
 
 .features-lightmode{
 	background: var(--transparent);
-	color: var(--features-lightmode-color);
+	color: var(--text-black);
 }
 
-
-.banner .smallBtn {
-	background-color: var(--green-button-color);
-	color: var(--white);
-	border-radius: 10px;
-}
-
-.banner .largeBtn {
-	/* border: 1px solid var(--white); */
-	border-radius: 10px;
-}
-
-.banner .mediumBtn {
-	/* border: 1px solid var(--white); */
-	border-radius: 10px;
-}
 .footer-lightmode{
 	background: var(--grey);
 	

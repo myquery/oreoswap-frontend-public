@@ -8,7 +8,7 @@
 @media all and (min-width: 0px) {
 
   .features__svg{
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     background: url(../../../../vectors/curly-light.svg),
     url(../../../../vectors/curly-dark.svg);
   background-size: cover;
@@ -17,10 +17,11 @@
   }
 
   .features__wrapper {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     margin: 2rem 2.5rem 4.5rem 2.5rem;
     max-width: 80%;
-
+    position: relative;
+    z-index: 2;
   }
 
   .features__display__container {
@@ -28,7 +29,7 @@
 }
 
   .features__header-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -38,7 +39,7 @@
   }
 
   .features__header__text-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.7;
@@ -48,7 +49,7 @@
   }
 
   .features__header__lasttext-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.7;
@@ -59,7 +60,7 @@
   }
 
   .features__header-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: flex;
     justify-content: center;
     font-weight: 500;
@@ -70,17 +71,16 @@
   }
 
   .features__header__text-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.7;
     display: contents;
-    /* text-align: center; */
     text-justify: inter-word;
   }
 
   .features__header__lasttext-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.7;
@@ -91,12 +91,12 @@
   }
 
   .features__display {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     text-align: center;
   }
 
   .features__display--liquidity-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -110,7 +110,7 @@
   }
 
   .features__display--liquidity--wrapper-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -118,7 +118,7 @@
   }
 
   .features__display--liquidity-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -132,7 +132,7 @@
   }
 
   .features__display--liquidity--wrapper-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -140,13 +140,13 @@
   }
 
   .features__display--liquidity--text {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     font-size: 1.05rem;
     font-weight: 400;
   }
 
   .features__display--transaction-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -160,7 +160,7 @@
   }
 
   .features__display--transaction--wrapper-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -168,7 +168,7 @@
   }
 
   .features__display--transaction-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     margin: 0 auto 1.9rem auto;
     width: 14rem;
     height: 10rem;
@@ -182,7 +182,7 @@
   }
 
   .features__display--transaction--wrapper-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -190,13 +190,13 @@
   }
 
   .features__display--transaction--text {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     font-size: 1.05rem;
     font-weight: 400;
   }
 
   .features__display--payment-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     margin: 0 auto 1.9rem auto;
     width: 15rem;
     height: 10rem;
@@ -210,7 +210,7 @@
   }
 
   .features__display--payment--wrapper-lightmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -218,7 +218,7 @@
   }
 
   .features__display--payment-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     margin: 0 auto 1.9rem auto;
     width: 15rem;
     height: 10rem;
@@ -232,7 +232,7 @@
   }
 
   .features__display--payment--wrapper-darkmode {
-    font-family: var(--roboto);
+    font-family: var(--roboto-font);
     display: inline-block;
     background: var(--features-liquidity-color);
     border-radius: 3.88889px;
@@ -427,12 +427,15 @@
 }
 
 @media all and (min-width: 1024px){
+  .features__display__container{
+    padding: 3rem 0;
+  }
 
   .features__wrapper{
     margin: 2rem auto 3.7rem auto;  
     max-width: 80%; 
   }
-/* 
+
   .features__header-lightmode {
     display: block;
     text-align: center;
@@ -441,24 +444,17 @@
   .features__header-darkmode {
     display: block;
     text-align: center;
-  } */
-  
-  .features__header__text-lightmode {
-    font-weight: 500;
-    font-size: 1.1rem;
-    line-height: 1.7;
-    text-align: center;
-    text-justify: inter-word;
-    display: block;
   }
-
-  .features__header__text-darkmode {
+  
+  .features__header__text-lightmode, .features__header__text-darkmode {
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.7;
     text-align: center;
     text-justify: inter-word;
     display: block;
+    width: 89%;
+    margin: 0 auto;
   }
 
   .features__header__lasttext-lightmode {
@@ -923,7 +919,7 @@
     text-justify: inter-word;
   }
 
-  .features__header__lasttext-lightmode {
+  .features__header__lasttext-lightmode,  .features__header__text-darkmode{
     font-weight: 500;
     font-size: 2.5rem;
     line-height: 1.7;
@@ -938,6 +934,7 @@
     line-height: 1.7;
     text-align: center;
     text-justify: inter-word;
+    margin-bottom: 4.5rem;
   }
 
   .features__header__lasttext-darkmode {

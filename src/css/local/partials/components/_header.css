@@ -27,15 +27,18 @@
 }
 
 .lightmode .header{
-  background-color: var(--light-mode-bkg-color);
+  background-color: var(--grey);
 }
 
 
 @media all and (min-width: 0px){
   .logo{
     width: 7rem;
+    z-index: 200;
   }
   .nav1 > ul{
+    position: relative;
+    z-index: 102;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -68,6 +71,7 @@
     letter-spacing: 0.014em;
     font-weight: 600;
     margin-left: 7px;
+    z-index: 200;
   }
   .hamburger{
     border-radius: 60px;
@@ -183,14 +187,18 @@
 }
 @media all and (min-width: 1024px){
   .logo{
+    position:relative;
     width: 120px;
+    z-index: 2000;
   }
   nav>ul>li{
     font: 1rem/1.2rem  var(--roboto-font);
+    position: relative;
     font-weight: 500;
     list-style: none;
     display: inline-flex;
     margin: 0 1rem;
+    z-index: 1000;
   }
   .desktop-nav{
     width: 100%;

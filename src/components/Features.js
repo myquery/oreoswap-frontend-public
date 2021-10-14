@@ -1,26 +1,18 @@
 import "../css/local/partials/components/_features.css";
-// import Curly from "../vectors/curly-dark.svg"
 const Features = ({ isClicked}) => {
-    // hamburger button color
-    // const hamLight = {
-    //     background: '#FFFFFF'
-    // }
-    // const hamDark = {
-    //     background: '#131313'
-    // }
     return (
         <section className={isClicked ? " features-darkmode" : "features-lightmode"}>
-            <div className="features__svg">
-            <div className="features__wrapper">
+            <div className="features__wrapper wrapper">
                 <div className={isClicked ? "features__header-darkmode" : "features__header-lightmode"}>Our Exciting Features</div>
-                <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>This Exchange is a food-themed decentralized platform. The food-based Oreo token runs</div>
-                <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>on the Binance smart chain contract. OREO is the platform in-built token with Pastrychef</div>
-                <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>as the chief baker. It is specially designed and developed to improve user experience with</div>
-                <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>exciting features for fast and inexpensive trades using BEP tokens. The cryptocurrency</div>
-                <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>exchange platform offers significant functionalities like staking, farming, swapping and</div>
-                <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>Liquidity pools. Other features like the Lottery system, NFT market place and P2P will be</div>
-                <div className={isClicked ? "features__header__lasttext-darkmode" : "features__header__lasttext-lightmode"}> added at a later date.</div>
-               <div className="features__display__container">
+                    <div className={isClicked ? "features__header__text-darkmode" : "features__header__text-lightmode"}>
+                        This Exchange is a food-themed decentralized platform. 
+                        The food-based Oreo token runs on the Binance smart chain contract. 
+                        OREO is the platform in-built  token with Pastrychef as the chief baker. 
+                        It is specially designed and developed to improve user experience with exciting 
+                        features for fast and inexpensive trades using BEP tokens. The cryptocurrency exchange platform offers significant functionalities like staking, farming, swapping and Liquidity pools. 
+                        Other features like the Lottery system, NFT market place, P2P and GameFi will be added at a later date.
+                    </div>
+                <div className="features__display__container">
                 <div className="features__display">
    
                     <div className={isClicked ? "features__display--liquidity-darkmode" : "features__display--liquidity-lightmode"}>
@@ -58,11 +50,8 @@ const Features = ({ isClicked}) => {
                 </div>
                 </div>
             </div>
-            </div>
         </section>
 
     )
 }
-
-
 export default Features;

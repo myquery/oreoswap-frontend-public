@@ -7,11 +7,11 @@
  
 
 }
-
  
 
 .hero {
 
+    
     width: 100%;
 
     margin: 4.37rem auto;
@@ -30,6 +30,19 @@
 
     /* margin-bottom: 10px; */
 
+
+}
+
+.banner{
+    position: relative;
+
+    overflow: hidden;
+}
+
+.banner-container{
+    position: relative;
+
+    z-index: 2;
 }
 
  
@@ -90,11 +103,9 @@
 
  
 
-.buttons {
+/* .buttons {
 
-    /* max-width: 80%;
 
-    margin: auto; */
 
     font-size: 10rem;
 
@@ -110,88 +121,52 @@
 
     margin-top: 0rem;
 
-    /* height: -1px; */
+   
 
     
 
+} */
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
- 
-
-.btn {
-
-    display: block;
-
-    border: 0.063 solid var(--white);
-
-    border-radius: 1.56rem;
-
-    margin: 0.9rem 0rem;
-
-    width: 9.45rem;
-
-    height: 2.5rem;
-
-    text-align: center;
-
-    overflow: hidden;
-
+.buttons button{
+    border-radius: 18px;
+    height: 50px;
+    font: 1.1rem/1.125rem var(--roboto-font);
+    font-weight: 700;
 }
 
- 
-
-a.smallBtn {
-
-    background-color: var(--green-button-color);
-
-    border: none;
-
-    outline: none;
-
-    font-size: 1.2rem;
-
- 
-
+.buttons button:nth-child(1){
+    background: var(--green-button-color);
+    margin: 0.5rem 0;
+}
+.buttons button:nth-child(2){
+    width: 192px;
+    margin: 0.5rem 0;
+}
+.buttons button:nth-child(1) a{
+    color: var(--white);
 }
 
-a.largeBtn {
 
-    width: 12.5rem;
-
-    font-size: 1.0rem;
-	/* text-align: center; */
-
- 
-
+@media all and (min-width: 764px){
+    .buttons{
+        flex-direction: row;
+        margin: 3rem 0;
+    }
+    .buttons button:nth-child(1){
+        background: var(--green-button-color);
+        margin: 0.5rem 1rem
+    }
+    .buttons button:nth-child(2){
+        width: 192px;
+        margin: 0.5rem 1rem;
+    }
 }
-
- 
-
-a.mediumBtn{
-
-    font-size: 1.2rem;
-
-}
-
- 
-
-   /* .eclipse {
-
-    position: absolute;
-
-    width: 884px;
-
-    height: 784px;
-
-    left: -284px;
-
-    top: -334px;
-
-    border: 30px solid rgba(221, 175, 148, 0.06);
-
-     border-radius: 50%; 
-
-     } */
 
 @media (min-width: 62em) {
 
@@ -229,26 +204,23 @@ a.mediumBtn{
 
     }
 
-    .buttons {
-
-        display: flex;
-
+    .buttons{
         flex-direction: row;
-
-        margin: 2.38rem auto;
-
-        
-
     }
 
- 
-
-    .btn {
-
-        margin: 0rem 1.93rem;
-
+    .buttons button{
+        border-radius: 20px;
+        height: 56px;
+        font: 1.25rem/1.45rem var(--roboto-font);
+        font-weight: 700;
     }
-
+    .buttons button:nth-child(1){
+        height: 60px;
+    }
+    .buttons button:nth-child(2){
+        width: 213px;
+        height: 60px;
+    }
  
 
 }

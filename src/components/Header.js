@@ -1,6 +1,6 @@
 import "../css/local/partials/components/_header.css";
 import { useRef } from 'react';
-import { useAlert } from 'react-alert'
+// import { useAlert } from 'react-alert'
 
 
 
@@ -50,9 +50,9 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
     };
     
     
-    const alert = useAlert()
+    // const alert = useAlert()
     const showAlert = () => {
-        alert.show("Coming Soon!!!")
+        alert("in development!!!".toUpperCase())
     }
 
     // hamburger button color
@@ -91,14 +91,14 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                 </ul>
                 <nav className={toggleNavbar ? 'nav1' : 'hide-mobilenav'} style={isClicked ? {backgroundColor: sideBarBgClr.dark} : {backgroundColor: sideBarBgClr.light}}>
                     <ul className={toggleNavbar ? "d-flex list-unstyled m-0" : "d-none list-unstyled m-0"}>
-                        <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
+                        {/* <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
                             <i className="bi bi-people-fill"></i><a href="https://oreoswap.com/team" >Team</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-reception-4"></i><a href="https://oreoswap.com/info" >Info</a>
-                        </li>
+                            <i className="bi bi-reception-4"></i><a href="#" >Info</a>
+                        </li> */}
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-telephone-fill"></i><a href="https://oreoswap.com/contact" >Contact</a>
+                            <i className="bi bi-telephone-fill"></i><a href="/#community" >Contact</a>
                         </li>
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
                             <i className="bi bi-github"></i><a href="https://github.com/oreoswap" target="_newtab">Github</a>
@@ -106,9 +106,9 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
                             <i className="bi bi-journal-album"></i><a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3" target="_newtab">Blog</a>
                         </li>
-                        <li onClick={toggleNavbar}>
+                        <li onClick={toggleNavbar, showAlert}>
                             <button className="navbar-button">
-                                <a href="#" onClick={showAlert}>Use Exchange</a>
+                                <a  href="#">Use Exchange</a>
                             </button>
                         </li>
                     </ul>
@@ -119,14 +119,14 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                             <li className="m-0">
                                 <a href="/"><img src={isClicked ? "img/oreoswap-white-logo.png" :"img/oreoswap-brown-logo.png"}  alt="company logo" className="logo mr-auto"/></a>
                             </li>
-                            <li className="ml-auto my-auto">
+                            {/* <li className="ml-auto my-auto">
                                 <a href="https://oreoswap.com/team" >Team</a>
                             </li>
-                            <li className="my-auto">
+                            <li className="my-auto ml-auto">
                                 <a href="https://oreoswap.com/info" >Info</a>
-                            </li>
-                            <li className="my-auto">
-                                <a href="https://oreoswap.com/contact" >Contact</a>
+                            </li> */}
+                            <li className="my-auto ml-auto">
+                                <a href="/#community" >Contact</a>
                             </li>
                             <li className="my-auto">
                                 <a href="https://github.com/oreoswap" target="_newtab">Github</a>
