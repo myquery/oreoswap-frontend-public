@@ -14,7 +14,7 @@ const options = {
   position: positions.TOP_CENTER,
   timeout: 5000,
   offset: '0px',
-  types: 'info',
+  // types: 'info',
   // you can also just use 'scale'
   transition: 'scale',
 }
