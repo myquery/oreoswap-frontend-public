@@ -7,7 +7,7 @@
 
 /* small mobile */
 @media all and  (min-width: 0px){
-	.community_bg-light{
+	/* .community_bg-light{
 		background: url(../../../../vectors/curly-light.svg),
 		url(../../../../vectors/curly-dark.svg);
 		background-size: cover;
@@ -21,7 +21,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-	}
+	} */
 
 	.center-text{
 		text-align: center;

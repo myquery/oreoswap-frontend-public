@@ -7,13 +7,6 @@
   scroll-behavior: smooth;
 }
 
-/* * p, * a, * img{
-  z-index: 30000;
-} */
-.curly-img {
-  background-image: url(./vectors/curly-dark.svg);
-}
-
 .bg-vectors img:nth-child(1), .bg-vectors img:nth-child(3){
   position: absolute;
   left: 0;

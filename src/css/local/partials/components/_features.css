@@ -7,14 +7,14 @@
 
 @media all and (min-width: 0px) {
 
-  .features__svg{
+  /* .features__svg{
     font-family: var(--roboto-font);
     background: url(../../../../vectors/curly-light.svg),
     url(../../../../vectors/curly-dark.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  }
+  } */
 
   .features__wrapper {
     font-family: var(--roboto-font);
@@ -350,14 +350,14 @@
   } */
 @media all and (min-width: 768px) {
 
-  .features__svg{
+  /* .features__svg{
     font-family: var(--roboto);
     background: url(../../../../vectors/curly-light.svg),
     url(../../../../vectors/curly-dark.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  }
+  } */
 
   .features__wrapper {
     margin: 2rem auto 3.5rem auto;

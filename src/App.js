@@ -9,9 +9,6 @@ import Body from "./components/Body"
 import Features from "./components/Features"
 import Community from "./components/Community"
 import Footer from "./components/Footer"
-// vectors
-import everGrowingDarkBg from "./vectors/ever-growing-vector-dark.svg"
-import everGrowingLightBg from "./vectors/ever-growing-vector-light.svg"
 
 class App extends Component {
 	state = {
@@ -56,8 +53,6 @@ class App extends Component {
 				/> */}
 					<Body
 						isClicked={this.state.isClicked}
-						everGrowingDarkBg={everGrowingDarkBg}
-						everGrowingLightBg={everGrowingLightBg}
 					/>
 
 					<Features className="curly-img"
