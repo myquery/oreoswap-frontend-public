@@ -542,7 +542,7 @@
   }
 
   .features__header__lasttext-lightmode {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.35rem;
     line-height: 1.7;
     text-align: center;
@@ -551,7 +551,7 @@
   }
 
   .features__header__lasttext-darkmode {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.35rem;
     line-height: 1.7;
     text-align: center;
@@ -562,7 +562,7 @@
   .features__header-darkmode{
     display: flex;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.8rem;
     margin-bottom: 1.2rem;
     margin-top: 1rem;
@@ -571,7 +571,7 @@
   .features__header-lightmode{
     display: flex;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.8rem;
     margin-bottom: 1.2rem;
     margin-top: 1rem;
@@ -613,6 +613,10 @@
 }
 
 @media all and (min-width: 1440px){
+  .features__display__container{
+    width: 1100px;
+    margin: 0 auto
+  }
 
   .features__wrapper{
     margin: 2rem auto 3.7rem auto;
@@ -632,7 +636,7 @@
 
   
   .features__header__text-lightmode {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.65rem;
     line-height: 1.7;
     text-align: center;
@@ -640,7 +644,7 @@
   }
 
   .features__header__lasttext-lightmode {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.65rem;
     line-height: 1.7;
     text-align: center;
@@ -649,7 +653,7 @@
   }
 
   .features__header__text-darkmode {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.65rem;
     line-height: 1.7;
     text-align: center;
@@ -657,7 +661,7 @@
   }
 
   .features__header__lasttext-darkmode {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.65rem;
     line-height: 1.7;
     text-align: center;
@@ -718,15 +722,21 @@
   }
 }
 
+@media all and (min-width: 2500px){
+  .features__display__container{
+    width: 1200px;
+    margin: 0 auto
+  }
+}
 
 
-@media all and (min-width: 2000px){
+/* @media all and (min-width: 2000px){
 
   .features__wrapper{
     margin: 2rem auto 3.7rem auto;
     width: 80%;    
   }
-/* 
+
   .features__display{
     display: flex;
     flex-wrap: wrap;
@@ -736,7 +746,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
-  } */
+  }
 
   
   .features__header__text-lightmode {
@@ -898,7 +908,7 @@
     margin: 2rem auto 3.7rem auto;
     width: 80%;    
   }
-/* 
+
   .features__display{
     display: flex;
     flex-wrap: wrap;
@@ -908,7 +918,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 300px;
-  } */
+  }
 
   
   .features__header__text-lightmode {
@@ -997,4 +1007,4 @@
   .features__display--portfolio-darkmode{
     margin: 0 auto 2.6rem 0rem;
   }
-}
+} */
