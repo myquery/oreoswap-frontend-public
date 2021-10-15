@@ -3,7 +3,7 @@ import "../css/local/partials/components/_community.css"
 const Community = ({ isClicked}) => {
 	return(
 		<section className={isClicked ? "community-darkmode" : "community-lightmode"} id="community">
-			<div className={isClicked ? "community_wrapper wrapper " : "community_wrapper wrapper"}>
+			<div className={isClicked ? "community_wrapper " : "community_wrapper "}>
 				<h1 className={isClicked ? "community_wrapper--heading center-text darkmode_color" : "community_wrapper--heading center-text lightmode_color"}>Join the Community</h1>
 				<p className={isClicked ? "community_wrapper--text center-text darkmode_color" : "community_wrapper--text center-text lightmode_color"}>Learn more about Oreoswap, interact with the team, others in the community, and have your say in building the future of the OreoSwap</p>
 				<div className="community_container">

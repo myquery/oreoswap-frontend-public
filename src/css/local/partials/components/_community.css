@@ -166,6 +166,10 @@
 		width: 1200px;
 		margin: 0 auto
 	}
+	.community_wrapper--text{
+		font: 1.5rem/2.2rem var(--roboto-font);
+		width: 800px;
+	}
 }
 
 /* 4k */
