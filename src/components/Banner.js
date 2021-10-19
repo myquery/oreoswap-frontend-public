@@ -1,14 +1,10 @@
-import { useAlert } from 'react-alert';
+// import { useAlert } from 'react-alert';
 import "../css/local/partials/components/_banner.css";
-// import {NavLink} from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Banner = () => {
-	// const alert = useAlert()
-	const showAlert = () => {
-		alert("in development!!!".toUpperCase())
-	}
 	return(
-		<section className="banner">
+		<section className="banner" id="/">
 			<div className="wrapper banner-container">
 			
 			<div className="hero">
@@ -19,7 +15,7 @@ const Banner = () => {
 					</p>
 				</div>
 				<div className="buttons">
-					<button onClick={showAlert} className="btn"><a href="#">Use Exchange</a></button>
+					<button className="btn"><Link to="/development">Use Exchange</Link></button>
 					<button className="btn"><a href="https://drive.google.com/file/d/15ic3RzlSWed6p-UdwxtbUiABNWgB8iRM/view?usp=sharing" target="_newtab">Documentation</a></button>
 					{/* <a href="#" className="btn smallBtn" type="button" onClick={showAlert}>Use Exchange</a>
 					<a href="https://drive.google.com/file/d/15ic3RzlSWed6p-UdwxtbUiABNWgB8iRM/view?usp=sharing" target="_newtab" className="btn largeBtn btns" type="button">Documentation</a> */}

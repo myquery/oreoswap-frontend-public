@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import "./App.css";
 
 // components
+import Home from './components/Home';
 import Header from "./components/Header";
-import Banner from "./components/Banner";
-import StatisticSection from "./components/StatisticSection"
-import Body from "./components/Body"
-import Features from "./components/Features"
-import Community from "./components/Community"
 import Footer from "./components/Footer"
+import Development from './components/Development';
 
 class App extends Component {
 	state = {
@@ -26,47 +24,49 @@ class App extends Component {
 				toggleNavbar: !this.state.toggleNavbar
 			})
 		}
+		
+		// const time = new Date();
+		// time.setSeconds(time.getSeconds() + 0);
+	
 		return(
-			<div className={this.state.isClicked ? "darkmode" : "lightmode"}>
-				<div className="bg-vectors">
-					<img src="img/bg-vectors/vector1.svg" alt="bg" />
-					<img src="img/bg-vectors/vector2.svg" alt="bg" />
-					<img src="img/bg-vectors/vector1mb.svg" alt="bg" />
-					<img src="img/bg-vectors/vector2mb.svg" alt="bg" />
-					{/* <img src="img/bg-vectors/vector3.svg" alt="bg" /> */}
-					<img src="img/bg-vectors/vector4.svg" alt="bg" />
-					<img src="img/bg-vectors/vector5.svg" alt="bg"/>
-				</div>
-				
-				<main>
-					<Header
-						isClicked={this.state.isClicked}
-						toggleMode={toggleMode}
-						toggleNavbar={this.state.toggleNavbar}
-						handleClick={handleClick}
-					/>
-					<Banner
-						isClicked={this.state.isClicked}
-					/>
-					{/* <StatisticSection
-				 	isClicked = {this.state.isClicked}
-				/> */}
-					<Body
-						isClicked={this.state.isClicked}
-					/>
+			<Router>
+				<main className={this.state.isClicked ? "darkmode" : "lightmode"}>
+					
 
-					<Features className="curly-img"
-						isClicked={this.state.isClicked}
-					/>
-					<Community
-						isClicked={this.state.isClicked}
-					/>
-					<Footer
-						isClicked={this.state.isClicked}
-					/>
+					<section>
+						<Header
+							isClicked={this.state.isClicked}
+							toggleMode={toggleMode}
+							toggleNavbar={this.state.toggleNavbar}
+							handleClick={handleClick}
+						/>
+						<Switch>
+							<Route exact path="/"
+								render={(props)=>
+									(
+										<Home {...props}
+											isClicked={this.state.isClicked}
+										/>
+									)
+								}
+							/>
+							<Route path="/development"
+								render={(props) =>
+									(
+										<Development {...props}
+											isClicked={this.state.isClicked}
+											// expiryTimestamp={time}
+										/>
+									)
+								}
+							/>
+						</Switch>
+						<Footer 
+							isClicked={this.state.isClicked}
+						/>
+					</section>
 				</main>
-			   
-		    </div>
+			</Router>
 		)
 	}
 }

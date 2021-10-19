@@ -1,0 +1,64 @@
+.dev-wrap figure{
+    position: relative;
+    padding: 10rem 0 2rem;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.dev-wrap figure img:nth-child(1){
+    display: flex;
+    position: relative;
+    width: 200px;
+    z-index: 1;
+    margin: 0 auto;
+}
+.dev-wrap figure img:nth-child(2){
+    width: 80px;
+    position: absolute;
+    top: 24%;
+    left: 65%;
+    animation: 3s rotate linear infinite;
+    z-index: 2;
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.dev-wrap figure p{
+    font: 1.5rem/2.6rem var(--roboto-font);
+    font-weight: 300;
+}
+
+.dev-wrap figure figcaption{
+    font: 2rem/2.5rem var(--roboto-font);
+    font-weight: 500;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+
+@media all and (min-width: 500px){
+    .dev-wrap figure img:nth-child(1){
+        width: auto;
+    }
+    .dev-wrap figure img:nth-child(2){
+        width: 150px; 
+        top: 15%;
+        left: 60%; 
+    }
+}
+@media all and (min-width: 1024px){
+    .dev-wrap figure img:nth-child(2){
+        top: 15%;
+        left: 58%; 
+    }
+}
+@media all and (min-width: 1440px){
+    .dev-wrap figure img:nth-child(2){
+        left: 55%; 
+    }
+    .dev-wrap figure figcaption{
+        font: 3rem/3.5rem var(--roboto-font);
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+}

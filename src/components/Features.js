@@ -14,37 +14,36 @@ const Features = ({ isClicked}) => {
                     </p>
                 <div className="features__display__container">
                     <div className="features__display">
-    
                         <div className={isClicked ? "features__display--liquidity-darkmode" : "features__display--liquidity-lightmode"}>
                             <div className={isClicked ? "features__display--liquidity--wrapper-darkmode" : "features__display--liquidity--wrapper-lightmode"}>
-                                <img src="img/Liquidity.png" alt="Liquidity" className="liquidity-img"/>
+                                <img src="img/features/Liquidity.png" alt="Liquidity" className="liquidity-img"/>
                             </div>
                             <div className="features__display--liquidity--text">Liquidity Portals</div>
                         </div>
                         <div className={isClicked ? "features__display--transaction-darkmode" : "features__display--transaction-lightmode"}>
-                        <div className={isClicked ? "features__display--transaction--wrapper-darkmode" : "features__display--transaction--wrapper-lightmode"}>
-                                <img src="img/transaction.png" alt="Low Transaction Fees" className="transaction-img"/>
+                            <div className={isClicked ? "features__display--transaction--wrapper-darkmode" : "features__display--transaction--wrapper-lightmode"}>
+                                <img src="img/features/transaction.png" alt="Low Transaction Fees" className="transaction-img"/>
                             </div>
                             <div className="features__display--transaction--text">Low Transaction Fees</div>
                         </div>
                         <div className={isClicked ? "features__display--payment-darkmode" : "features__display--payment-lightmode"}>
-                        <div className={isClicked ? "features__display--payment--wrapper-darkmode" : "features__display--payment--wrapper-lightmode"}>
-                                <img src="img/secure payment.png" alt="Payment Gateway" className="gateway-img"/>
+                            <div className={isClicked ? "features__display--payment--wrapper-darkmode" : "features__display--payment--wrapper-lightmode"}>
+                                <img src="img/features/secure payment.png" alt="Payment Gateway" className="gateway-img"/>
                             </div>
                             <div className="features__display--payment--text">Safe Payment Gateway</div>
                         </div>
                         </div>
                         <div className="features__display">
-                        <div className={isClicked ? "features__display--staking-darkmode" : "features__display--staking-lightmode"}>
-                        <div className={isClicked ? "features__display--staking--wrapper-darkmode" : "features__display--staking--wrapper-lightmode"}>
-                                <img src="img/Stake.png" alt="Staking" className="Stake-img"/>
+                            <div className={isClicked ? "features__display--staking-darkmode" : "features__display--staking-lightmode"}>
+                                <div className={isClicked ? "features__display--staking--wrapper-darkmode" : "features__display--staking--wrapper-lightmode"}>
+                                    <img src="img/features/Stake.png" alt="Staking" className="Stake-img"/>
+                                </div>
+                                <div className="features__display--staking--text">Staking</div>
                             </div>
-                            <div className="features__display--staking--text">Staking</div>
-                        </div>
-                        <div className={isClicked ? "features__display--portfolio-darkmode" : "features__display--portfolio-lightmode"}>
-                        <div className={isClicked ? "features__display--portfolio--wrapper-darkmode" : "features__display--portfolio--wrapper-lightmode"}>
-                                <img src="img/portfolio.png" alt="Portfolio" className="portfolio-img"/>
-                            </div>
+                            <div className={isClicked ? "features__display--portfolio-darkmode" : "features__display--portfolio-lightmode"}>
+                                <div className={isClicked ? "features__display--portfolio--wrapper-darkmode" : "features__display--portfolio--wrapper-lightmode"}>
+                                    <img src="img/features/portfolio.png" alt="Portfolio" className="portfolio-img"/>
+                                </div>
                             <div className="features__display--portfolio--text">Improve Portfolio</div>
                         </div>
                     </div>

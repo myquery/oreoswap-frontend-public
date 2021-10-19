@@ -1,13 +1,9 @@
 import "../css/local/partials/components/_header.css";
 import { useRef } from 'react';
-// import { useAlert } from 'react-alert'
-
-
-
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
-    
     
     // Disable and enable scroll on sidebar toggle
     const safeDocument = typeof document !== 'undefined' ? document : {};
@@ -48,20 +44,6 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
     
         scrollBlocked.current = false;
     };
-    
-    
-    // const alert = useAlert()
-    const showAlert = () => {
-        alert("in development!!!".toUpperCase())
-    }
-
-    // hamburger button color
-    const hamLight = {
-        background: '#FFFFFF'
-    };
-    const hamDark = {
-        background: '#266150'
-    };
 
     const sideBarBgClr = {
         "light": "#E6F0EE",
@@ -70,23 +52,22 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
 
     toggleNavbar ? blockScroll() : allowScroll();
 
-
     return(
         <header className="header">
             <div className="wrapper">
                 <ul className="mobilenav list-unstyled">
                     <li className={toggleNavbar ? 'hide-visibility': 'd-block list-unstyled'}>
-                        <a href="#"><img src={isClicked ? "img/oreoswap-white-logo.png" : "img/oreoswap-brown-logo.png"}  alt="Oreoswap logo" className="logo mr-auto" id="logo"/></a>
+                        <Link exact to="/#/"><img src={isClicked ? "img/logo/oreoswap-white-logo.png" : "img/logo/oreoswap-brown-logo.png"}  alt="Oreoswap logo" className="logo mr-auto" id="logo"/></Link>
                     </li>
                      <li  className={toggleNavbar ? "hide-visibility" : " ml-auto"}>
-                        <a href="javascript:void(0)" onClick={toggleMode} className="m-auto">
+                        <span onClick={toggleMode} className="m-auto">
                               <i className={isClicked ? "bi bi-sun-fill sun-icon" :  "bi bi-moon-fill moon-icon"}></i>
-                        </a>
+                        </span>
                     </li>
                     <div className={toggleNavbar ? "ml-auto": "m-0"} onClick={handleClick}>
-                        <div className={toggleNavbar ? 'ln1 hamburger' : 'hamburger ln01'} style={!isClicked ? hamDark : hamLight}></div>
-                        <div className={toggleNavbar ? 'ln2 hamburger' : 'hamburger'} style={!isClicked ? hamDark : hamLight}></div>
-                        <div className={toggleNavbar ? 'ln3 hamburger' : 'hamburger ln02'} style={!isClicked ? hamDark : hamLight}></div>
+                        <div className={toggleNavbar ? 'ln1 hamburger' : 'hamburger ln01'} ></div>
+                        <div className={toggleNavbar ? 'ln2 hamburger' : 'hamburger'} ></div>
+                        <div className={toggleNavbar ? 'ln3 hamburger' : 'hamburger ln02'} ></div>
                     </div>
                 </ul>
                 <nav className={toggleNavbar ? 'nav1' : 'hide-mobilenav'} style={isClicked ? {backgroundColor: sideBarBgClr.dark} : {backgroundColor: sideBarBgClr.light}}>
@@ -97,18 +78,18 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                         <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
                             <i className="bi bi-reception-4"></i><a href="#" >Info</a>
                         </li> */}
-                        <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
-                            <i className="bi bi-telephone-fill"></i><a href="/#community" >Contact</a>
+                        <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={handleClick}>
+                            <i className="bi bi-telephone-fill"></i><Link exact to="/#community" >Contact</Link>
                         </li>
-                        <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
+                        <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={handleClick}>
                             <i className="bi bi-github"></i><a href="https://github.com/oreoswap" target="_newtab">Github</a>
                         </li>
-                        <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={toggleNavbar}>
+                        <li className={isClicked ? "sidebar-dark" : "sidebar-light"} onClick={handleClick}>
                             <i className="bi bi-journal-album"></i><a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3" target="_newtab">Blog</a>
                         </li>
-                        <li onClick={toggleNavbar, showAlert}>
+                        <li onClick={handleClick}>
                             <button className="navbar-button">
-                                <a  href="#">Use Exchange</a>
+                                <Link to ="/development">Use Exchange</Link>
                             </button>
                         </li>
                     </ul>
@@ -117,7 +98,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                     <nav className="topnav">
                         <ul className="d-flex list-unstyled my-3">
                             <li className="m-0">
-                                <a href="/"><img src={isClicked ? "img/oreoswap-white-logo.png" :"img/oreoswap-brown-logo.png"}  alt="company logo" className="logo mr-auto"/></a>
+                                <Link exact to="/#/"><img src={isClicked ? "img/logo/oreoswap-white-logo.png" :"img/logo/oreoswap-brown-logo.png"}  alt="company logo" className="logo mr-auto"/></Link>
                             </li>
                             {/* <li className="ml-auto my-auto">
                                 <a href="https://oreoswap.com/team" >Team</a>
@@ -126,7 +107,7 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="https://oreoswap.com/info" >Info</a>
                             </li> */}
                             <li className="my-auto ml-auto">
-                                <a href="/#community" >Contact</a>
+                                <Link to ="/#community" >Contact</Link>
                             </li>
                             <li className="my-auto">
                                 <a href="https://github.com/oreoswap" target="_newtab">Github</a>
@@ -135,13 +116,13 @@ const Header = ({isClicked, toggleMode, toggleNavbar, handleClick}) => {
                                 <a href="https://medium.com/@oreoswap/the-making-of-defi-1291a60053c3" target="_newtab">Blog</a>
                             </li>
                            <li  className="my-auto">
-                                <a onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>
+                                <span onClick={toggleMode} className="m-auto" style={{overflow : "hidden"}}>
                                     <i className={isClicked ? "bi bi-sun-fill sun-icon m-0" :  "bi bi-moon-fill moon-icon m-0"}></i>
-                                </a>
+                                </span>
                             </li>
                             <li  className="my-auto">
                                 <button className="navbar-button m-0">
-                                    <a href="#" onClick={showAlert}>Use Exchange</a>
+                                    <Link to ="/development" >Use Exchange</Link>
                                 </button>
                             </li>
                         </ul>

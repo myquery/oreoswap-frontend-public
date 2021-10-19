@@ -11,9 +11,9 @@
   --banner-darkmode-color: #266150;
   --transparent: transparent;
   --features-lightmode-color: #183f33;
-  --features--glassmorphism-white-color: rgba(255, 255, 255, 0.3);
-  --features--glassmorphism-black-color: rgba(255, 255, 255, 0.076);
-  --features--glassmorphism-border: rgba(209, 213, 219, 0.3);
+  --glassmorphism-white-color: rgba(255, 255, 255, 0.3);
+  --glassmorphism-black-color: rgba(255, 255, 255, 0.076);
+  --glassmorphism-border: rgba(209, 213, 219, 0.3);
   --features-liquidity-color: #0b0e0d;
   --white: #ffffff;
   --black: #131313;
@@ -24,10 +24,4 @@
   --light-mode-links-color: #266150;
   --community-lightmode-color: #183F33;
   --community-darkmode-color: #ffffff;
-  --community--glassmorphism-white-color: rgba(255, 255, 255, 0.3);
-  --community--glassmorphism-black-color: rgba(255, 255, 255, 0.076);
-  --community--glassmorphism-border: rgba(209, 213, 219, 0.3);
-  
-  
-
 }
