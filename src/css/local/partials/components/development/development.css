@@ -24,6 +24,10 @@
     0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
 }
+.dev-wrap figure p{
+    font: 1.5rem/2.6rem var(--roboto-font);
+    font-weight: 300;
+}
 
 .dev-wrap figure figcaption{
     font: 2rem/2.5rem var(--roboto-font);

@@ -44,9 +44,9 @@ const Development = ({ isClicked, expiryTimestamp} ) => {
 
                     {"development in progress".toUpperCase()}
                 </figcaption>
-                <pre>
+                <p>
                     {`redirecting to homepage in  ${seconds}`.toLowerCase()}
-                </pre>
+                </p>
                 <div className="buttons">
 					<button className="btn"><NavLink exact to="/">Back To Homepage</NavLink></button>
                 </div>
