@@ -3,12 +3,7 @@
     width: 80%;
 
     margin: 0 auto;
-
- 
-
 }
-
-
 
 .footer {
 
@@ -23,28 +18,11 @@
     margin: 0rem auto;
 
     margin-top: 7.5rem;
-
 }
-
-/* .footer__line {
-
-    border-bottom: 1px solid var(--white);
-
-    padding: 10px;
-
-    width: 80%;
-
-    margin: auto;
-
-} */
-
- 
 
 .footer::after {
 
     content: "";
-
-    background-color: var(--white);
 
     width: 80%;
 
@@ -59,10 +37,7 @@
     right: 50%;
 
     transform: translate(-50%, -50%);
-
 }
-
- 
 
 .footer__rightHeading{
 
@@ -73,12 +48,8 @@
     line-height: 1.47rem;
 
     font-family: var(--roboto-font);
-
- 
-
 }
 
- 
 
 .footer__rightSubHeading {
 
@@ -91,8 +62,6 @@
     line-height: 1.32rem;
 
 }
-
- 
 
 .footer__search {
 
@@ -111,8 +80,6 @@ input.searchBar {
     outline: none;
 
     background: transparent;
-
-    border: 0.062rem solid var(--white);
 
 }
 
@@ -168,11 +135,7 @@ input.searchBar {
 
     line-height: 1.5rem;
 
- 
-
 }
-
- 
 
 .footer__bottom {
 
@@ -180,21 +143,17 @@ input.searchBar {
 
     margin: 0 auto;
 
-    color: var(--white)!important;
+    /* color: var(--white)!important; */
 
     align-items: center;
 
 }
 
- 
-
 .footer__link {
-
-    
 
     font-size: 1rem;
 
-    font-family: (--roboto-font);
+    font-family: var(--roboto-font);
 
     font-style: normal;
 
@@ -203,8 +162,6 @@ input.searchBar {
     margin-bottom: 0rem;
 
 }
-
- 
 
 .footer__list {
 
@@ -218,7 +175,6 @@ input.searchBar {
 
 .footer__list a{
 
- 
 
     margin-right: 2.2rem;
 
@@ -230,8 +186,6 @@ input.searchBar {
 
 }
 
- 
-
 @media (min-width: 62em) {
 
     .footer__main {
@@ -242,23 +196,17 @@ input.searchBar {
 
     }
 
- 
-
     .footer__left {
 
         order: 1;
 
     }
 
- 
-
     .footer__right {
 
         order: 2;
 
     }
-
- 
 
     .footer__bottom {
 
@@ -267,16 +215,12 @@ input.searchBar {
         justify-content: space-between;
 
     }
-
  
-
     .footer__search {
 
         display: flex;
 
     }
-
- 
 
     .searchBar {
 
@@ -286,11 +230,7 @@ input.searchBar {
 
         background: transparent;
 
-        border: 1px solid var(--white);
-
     }
-
- 
 
     .footer__btn {
 
@@ -299,19 +239,11 @@ input.searchBar {
     }
 
 }   
-
-
-
-
 /* workdown */
-
- 
 
 /* small mobile */
 
 @media all and  (min-width: 0rem){
-
-    
 
     form.footer__search {
 
@@ -320,8 +252,6 @@ input.searchBar {
         flex-direction: row;
 
     }
-
- 
 
     input.searchBar{
 
@@ -332,8 +262,6 @@ input.searchBar {
         font-size: 0.87rem;
 
     }
-
- 
 
     button.footer__btn {
 
@@ -346,8 +274,6 @@ input.searchBar {
         font-size: 1.004rem;
 
     }
-
- 
 
 }
 
@@ -375,8 +301,6 @@ input.searchBar {
 
     }
 
- 
-
     button.footer__btn {
 
         width: 5.6rem;
@@ -401,8 +325,6 @@ input.searchBar {
 
     }
 
- 
-
     input.searchBar{
 
         width: 16.5rem;
@@ -413,8 +335,6 @@ input.searchBar {
 
     }
 
- 
-
     button.footer__btn {
 
         width: 6.78rem;
@@ -424,12 +344,8 @@ input.searchBar {
         color: var(--white);
 
         font-size: 1.053rem;
-
     }
-
 }
-
- 
 
 /* bigger laptop/desktop */
 
@@ -441,23 +357,25 @@ input.searchBar {
 
     }
 
- 
-
     input.searchBar{
-
-        width: 17.8rem;
 
         padding: 1.1rem 0.63rem;
 
         font-size: 1.06rem;
 
-    }
+        width: 376px!important;
 
- 
+        height: 55px;
+    }
+    input.searchBar::placeholder{
+        padding-left: 1rem;
+    }
 
     button.footer__btn {
 
-        width: 6.87rem;
+        width: 146px!important;
+
+        height: 55px;
 
         padding: 0.50rem 0.2rem;
 
@@ -465,18 +383,10 @@ input.searchBar {
 
         font-size: 1.053rem;
 
+        border-radius: 0 10px 10px 0;
+
     }
-
-}
-
  
-
-/* 4k */
-
-@media all and  (min-width: 2550px){
-
-    
-
 }
 
 
@@ -490,8 +400,6 @@ input.searchBar {
 
     }
 
- 
-
     input.searchBar{
 
         width: 11.6rem;
@@ -499,10 +407,7 @@ input.searchBar {
         padding: 0.49rem 0.1rem;
 
         font-size: 0.87rem;
-
     }
-
- 
 
     button.footer__btn {
 
@@ -515,13 +420,7 @@ input.searchBar {
         font-size: 1.004rem;
 
     }
-
- 
-
 }
-
-    
-
 
 /* large mobile */
 @media all and (min-width: 420px){
@@ -534,8 +433,6 @@ input.searchBar {
 
     }
 
- 
-
     input.searchBar{
 
         width: 11.6rem;
@@ -545,8 +442,6 @@ input.searchBar {
         font-size: 0.87rem;
 
     }
-
- 
 
     button.footer__btn {
 
@@ -559,8 +454,4 @@ input.searchBar {
         font-size: 1.004rem;
 
     }
-
- 
-
 }
-

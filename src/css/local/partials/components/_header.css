@@ -2,7 +2,6 @@
   cursor: pointer;
 }
 
-
 .moon-icon{
   color: var(--green-button-color);
   font-size: 1.4em;
@@ -248,6 +247,5 @@
     list-style: none;
     display: inline-flex;
     margin: 0 1rem;
-  }
-  
+  } 
 }
