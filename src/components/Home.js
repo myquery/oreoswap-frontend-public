@@ -31,12 +31,13 @@ const Home = ({ isClicked }) => {
                 <Features
                     isClicked={isClicked}
                 />
+                 <Timer
+                    isClicked={isClicked}
+                />
                 <Community
                     isClicked={isClicked}
                 />
-                <Timer
-                    isClicked={isClicked}
-                />
+
             </main>
         </>
         

@@ -14,7 +14,7 @@ const Timer = () => {
                     <div className="timer-countdown">
                     <Countdown timeTillDate="11 30 2021, 9:00 am" timeFormat="MM DD YYYY, h:mm a" />
                     </div>
-                    <button className="timer-button">JOIN OUR WAITLIST</button>
+<a target= "_newtab" className="anchor" href="http://bit.ly/OreoSwap"> <button className="timer-button">JOIN OUR WAITLIST</button></a>
                 </div>
 				</div>
 			</section>

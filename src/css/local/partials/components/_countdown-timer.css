@@ -13,6 +13,9 @@
     .countdown-bg-desktop{
       display: none;
     }
+    .anchor{
+      text-decoration: none;
+    }
     .timer{
       display:flex;
       flex-direction: column;
