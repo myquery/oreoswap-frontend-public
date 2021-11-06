@@ -1,0 +1,114 @@
+@media all and (min-width: 0px) {
+    .countdown-svg-container{
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+     
+    }
+    .countdown-bg-mobile{
+      max-height: 850px;
+      min-height: 800px;
+    }
+  
+    .countdown-bg-desktop{
+      display: none;
+    }
+    .timer{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px ;
+    }
+    .timer-button{
+      width: 213px;
+      height: 50px;
+      background: #E6F0EE;
+      border-radius: 40px;
+      border: none;
+      margin-top: 30px;
+      font-family: 1.125rem/1.8rem var(--roboto-font);
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 143.19%;
+text-align: center;
+color: #000000;
+      }
+      .timer-header-text{
+        font-family:1.125rem/1.8rem var(--roboto-font);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-bottom: 30px ;
+      }
+    .countdown-svg-container .timer{
+      font: 1.125rem/1.8rem var(--roboto-font);
+      color: var(--white);
+      position: absolute;
+      overflow: hidden;
+      width: 90%;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+
+    }
+  }
+  @media all and (min-width: 320px){
+    .countdown-bg-mobile{
+      height: auto;
+      max-height: auto;
+      min-height: auto;
+    }
+  }
+  @media all and (min-width: 375px){
+    .countdown-bg-mobile{
+      width: 100%;
+      height: 500px;
+    }
+  }
+  /* @media all and (min-width: 400px){
+  
+    } */
+  @media all and (min-width: 768px) {
+   
+    .countdown-bg-desktop{
+      display: block;
+      width: auto;
+    }
+    .countdown-bg-mobile{
+      display: none;
+    }
+  
+    .body-container {
+      display: none;
+    }
+  }
+  
+  @media all and (min-width: 1024px) {
+    .countdown-svg-container .timer{
+      font: 1.5rem/2.56rem var(--roboto-font);
+      width: 70%;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      margin: 0 auto;
+    }
+  
+    .countdown-bg-desktop{
+      display: block;
+      height: 450px;
+    }
+  }
+  
+  @media all and (min-width: 1440px) {
+    .countdown-bg-desktop{
+      height: auto;
+    }
+  }
+  
+  

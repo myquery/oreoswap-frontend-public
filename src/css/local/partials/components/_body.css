@@ -12,7 +12,7 @@
   .bg-desktop{
     display: none;
   }
-  .svg-container p{
+  .svg-container p {
     font: 1.125rem/1.8rem var(--roboto-font);
     color: var(--white);
     position: absolute;
