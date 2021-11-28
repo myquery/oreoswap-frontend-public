@@ -37,7 +37,6 @@ const Home = ({ isClicked }) => {
                 <Community
                     isClicked={isClicked}
                 />
-
             </main>
         </>
         
