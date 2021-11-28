@@ -39,7 +39,7 @@ text-align: center;
 color: #000000;
       }
       .timer-header-text{
-        font-family:1.125rem/1.8rem var(--roboto-font);
+        font: 1.125rem/1.8rem var(--roboto-font);
         font-style: normal;
         font-weight: bold;
         font-size: 22px;
@@ -58,6 +58,13 @@ color: #000000;
       left: 0;
       bottom: 0;
 
+    }
+    .address p{
+      font:1.125rem/1.8rem var(--roboto-font);
+      overflow: hidden;
+    }
+    .address strong{
+      font: 0.7rem/1.4rem var(--roboto-font);
     }
   }
   @media all and (min-width: 320px){
@@ -89,6 +96,12 @@ color: #000000;
     .body-container {
       display: none;
     }
+    .address p{
+      font: 1.25rem/2.56rem var(--roboto-font);
+    }
+    .address strong{
+      font: 1.25rem/2.56rem var(--roboto-font);
+    }
   }
   
   @media all and (min-width: 1024px) {
@@ -106,6 +119,13 @@ color: #000000;
       display: block;
       height: 450px;
     }
+    .address p{
+      font: 1.5rem/2.56rem var(--roboto-font);
+    }
+    .address strong{
+      font: 1.5rem/2.56rem var(--roboto-font);
+    }
+    
   }
   
   @media all and (min-width: 1440px) {
@@ -114,4 +134,7 @@ color: #000000;
     }
   }
   
-  
+  /* copy icon */
+  .copy-icon{
+    cursor: pointer;
+  }
