@@ -3,6 +3,7 @@ import Body from "./Body";
 import Community from "./Community";
 import Timer from "./countDownTimer";
 import Features from "./Features";
+import Presales from "./presales";
 // import StatisticSection from "./StatisticSection";
 
 
@@ -31,9 +32,13 @@ const Home = ({ isClicked }) => {
                 <Features
                     isClicked={isClicked}
                 />
+                <Presales
+                    isClicked={isClicked}
+                />
                  <Timer
                     isClicked={isClicked}
                 />
+                
                 <Community
                     isClicked={isClicked}
                 />
