@@ -10,7 +10,7 @@
 .bg-vectors img:nth-child(1), .bg-vectors img:nth-child(3){
   position: absolute;
   left: 0;
-  top: 0;
+  top: 10%;
   z-index: 1;
   cursor: text;
 }
@@ -24,6 +24,8 @@
   z-index: 1;
   cursor: text;
 }
+
+ 
  /* .bg-vectors img:nth-child(3){
   position: absolute;
   right:  0;
@@ -33,7 +35,7 @@
  .bg-vectors img:nth-child(6){
   position: absolute;
   right:  0;
-  top: 30%;
+  top: 20%;
   z-index: 1;
   cursor: text;
   width: 100%;
@@ -41,7 +43,7 @@
 .bg-vectors img:nth-child(5){
   position: absolute;
   right:  0;
-  top: 42%;
+  top: 30%;
   display: none;
   z-index: 1;
   width: 100%;

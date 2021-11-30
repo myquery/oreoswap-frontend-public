@@ -1,0 +1,55 @@
+/* small mobile */
+@media all and  (min-width: 0px){
+    .presales{
+        padding: 2rem 0
+    }
+    .presales h1, .presales p, .presales ul li, .presales strong{
+        font: 1.125rem/1.8rem var(--roboto-font);
+    }
+    .presales p a:hover{
+       text-decoration: underline;
+    }
+    .presales strong{
+        font-weight: 500;
+    }
+    .presales ul li{
+        background: var(--glassmorphism-black-color);
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+    }
+}
+/* medium mobile */
+@media all and  (min-width: 375px){
+	
+}
+/* large mobile */
+@media all and (min-width: 420px){
+
+}
+/* tablet */
+@media all and (min-width: 768px){
+	
+}
+
+/* laptop */
+@media all and (min-width: 1024px){
+	 .presales h1, .presales p, .presales ul li, .presales strong{
+        font: 1.5rem/2.4rem var(--roboto-font);
+    }
+    .presales strong{
+        font-weight: 500;
+    }
+}
+
+/* bigger laptop/desktop */
+@media all and (min-width: 1440px){
+    .presales ul{
+       width: 70%;
+       margin: 0 auto;
+    }
+}
+
+/* 4k */
+@media all and  (min-width: 2550px){
+	
+}
