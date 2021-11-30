@@ -11,11 +11,11 @@ const Timer = () => {
 					<img src={Desktop} alt="countdown-SVG-background" className="countdown-bg-desktop" />
 					<img src={Mobile} alt="bg" className="countdown-bg-mobile"/>
 				<div className="timer text-center d-flex align-items-center">
-                    <h1 className="timer-header-text">OUR PRIVATE SALES START IN</h1>
-                    <div className="timer-countdown">
+                    <h1 className="timer-header-text">OUR PRIVATE SALES IS LIVE</h1>
+                    {/* <div className="timer-countdown">
                     <Countdown timeTillDate="11 30 2021, 9:00 am" timeFormat="MM DD YYYY, h:mm a" />
-                    </div>
-					<a target= "_newtab" className="anchor" href="http://bit.ly/OreoSwap"> <button className="timer-button">JOIN OUR WAITLIST</button></a>
+                    </div> */}
+					<a target= "_newtab" className="anchor" href="http://bit.ly/OreoSwap"> <button className="timer-button mb-5">JOIN WHITELIST</button></a>
 					<Address />
                 </div>
 				</div>
