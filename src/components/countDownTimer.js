@@ -14,9 +14,9 @@ const Timer = () => {
 					<Address />
                     <h1 className="timer-header-text">PRIVATE ROUND 2 STARTING IN</h1>
                     <div className="timer-countdown">
-                    <Countdown timeTillDate="12 14 2021, 12:00 am" timeFormat="MM DD YYYY, h:mm a" />
+                    <Countdown timeTillDate="12 14 2021, 10:59 pm" timeFormat="MM DD YYYY, h:mm a" />
                     </div>
-						<a target="_newtab" className="anchor" href="https://forms.gle/e1ZYrj917uzk99fw8"> <button className="timer-button">SUBMIT</button></a>
+						{/* <a target="_newtab" className="anchor" href="https://forms.gle/e1ZYrj917uzk99fw8"> <button className="timer-button">SUBMIT</button></a> */}
 					
                 </div>
 				</div>
