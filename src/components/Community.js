@@ -40,9 +40,9 @@ const Community = ({ isClicked}) => {
 					<div className="community_icons">
 						<div className={isClicked ? "community_icons-item community_icons-item-darkmode" : "community_icons-item community_icons-item-lightmode"}>
 							<div className="community_icons-img">
-								<a href="https://www.reddit.com/user/OreoSwap-Official/" target="_newtab"><img src={isClicked ? "/img/community_icons/reddit-dark.png" : "/img/community_icons/reddit.png"} alt="reddit"/></a>
+								<a href="https://www.reddit.com/u/HelloOreoSwap" target="_newtab"><img src={isClicked ? "/img/community_icons/reddit-dark.png" : "/img/community_icons/reddit.png"} alt="reddit"/></a>
 							</div>
-							<p>Send us  a message in our <a href="https://www.reddit.com/user/OreoSwap-Official/" target="_newtab">Reddit community</a>.</p>
+							<p>Send us  a message in our <a href="https://www.reddit.com/u/HelloOreoSwap" target="_newtab">Reddit community</a>.</p>
 						</div>
 						<div className={isClicked ? "community_icons-item community_icons-item-darkmode" : "community_icons-item community_icons-item-lightmode"}>
 						 <div className="community_icons-img">
