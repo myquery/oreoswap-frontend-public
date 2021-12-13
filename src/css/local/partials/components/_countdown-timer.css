@@ -84,10 +84,13 @@ color: #000000;
   
     } */
   @media all and (min-width: 768px) {
-   
+    /* .countdown-svg-container{
+      height: 50vh;
+    } */
     .countdown-bg-desktop{
       display: block;
       width: auto;
+      height: 450px;
     }
     .countdown-bg-mobile{
       display: none;
