@@ -12,16 +12,16 @@ const Timer = () => {
 					<img src={Mobile} alt="bg" className="countdown-bg-mobile"/>
 				<div className="timer text-center d-flex align-items-center">
 					<Address />
-                    <h1 className="timer-header-text">PRIVATE ROUND 2 STARTING IN</h1>
-					<ul className="timer-header-text">
+                    <h1 className="timer-header-text">PRIVATE ROUND 2 POSTPONED</h1>
+					{/* <ul className="timer-header-text">
 						<li>Min Buy: 0.1bnb</li>
 						<li>Max Buy: 1bnb</li>
 					</ul>
                     <div className="timer-countdown">
-                    <Countdown timeTillDate="12 14 2021, 10:59 pm" timeFormat="MM DD YYYY, h:mm a" />
+                    <Countdown timeTillDate="12 20 2021, 10:59 pm" timeFormat="MM DD YYYY, h:mm a" />
                     </div>
-						{/* <a target="_newtab" className="anchor" href="https://forms.gle/e1ZYrj917uzk99fw8"> <button className="timer-button">SUBMIT</button></a> */}
-					
+						<a target="_newtab" className="anchor" href="https://forms.gle/e1ZYrj917uzk99fw8"> <button className="timer-button">SUBMIT</button></a>
+					 */}
                 </div>
 				</div>
 			</section>
