@@ -41,13 +41,13 @@ export default class Countdown extends React.Component {
       <div>
         <h1 className= "header">Time to Presale</h1>
         	<div className='countdown-wrapper'>
-					{days && (
+					{/* {days && (
 						<div className='countdown-item'>
 							<SVGCircle radius={daysRadius} />
 							{days} 
 							<span>days</span>
 						</div>
-					)}
+					)} */}
 					{hours && (
 						<div className='countdown-item'>							
 							<SVGCircle radius={hoursRadius} />
