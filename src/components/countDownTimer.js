@@ -13,6 +13,10 @@ const Timer = () => {
 				<div className="timer text-center d-flex align-items-center">
 					<Address />
                     <h1 className="timer-header-text">PRIVATE ROUND 2 STARTING IN</h1>
+					<ul className="timer-header-text">
+						<li>Min Buy: 0.1bnb</li>
+						<li>Max Buy: 1bnb</li>
+					</ul>
                     <div className="timer-countdown">
                     <Countdown timeTillDate="12 14 2021, 10:59 pm" timeFormat="MM DD YYYY, h:mm a" />
                     </div>
