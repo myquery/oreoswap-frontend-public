@@ -16,7 +16,7 @@ const Banner = () => {
 				</div>
 				<div className="buttons">
 					<button className="btn"><Link to="/development">Use Exchange</Link></button>
-					<button className="btn"><a href="https://drive.google.com/file/d/1kuSuhWdDdqJ1Bm0Hz4VHBHTuVQS04Lxk/view?usp=sharing" target="_newtab">OreoSwap Paper</a></button>
+					<button className="btn"><a href="https://drive.google.com/file/d/19Y7UrLw36ykGPhn_cVQiWDiWHo8JRjs4/view" target="_newtab">OreoSwap Paper</a></button>
 					{/* <a href="#" className="btn smallBtn" type="button" onClick={showAlert}>Use Exchange</a>
 					<a href="https://drive.google.com/file/d/1kSNWMxyMMrQt8x8j9iMJyIwC0spDqq23/view?usp=sharing" target="_newtab" className="btn largeBtn btns" type="button">Documentation</a> */}
 					{/* <a href="https://oreoswap.com/faqs" className="btn mediumBtn btns" type="button">FAQs</a> */}
