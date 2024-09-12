@@ -1,4 +1,4 @@
-# Getting Started with #buidLing OreoSwap
+# Getting Started with #buiLding OreoSwap
 
 This project is a community project by Binance African Master Class Graduates [Create React App](https://github.com/facebook/create-react-app).
 
